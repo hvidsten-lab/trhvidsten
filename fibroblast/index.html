@@ -1,0 +1,262 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Author" content="Torgeir R. Hvidsten">
+   <meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+   <title>Template-based function prediction</title>
+<!-- WEBMAGIC VERSION NUMBER="2.0.1" -->
+<!-- WEBMAGIC TRANSLATION NAME="ServerRoot" SRC="/var/www/htdocs/" DST="/" -->
+<!-- WEBMAGIC TRANSLATION NAME="ProjectRoot" SRC="./" DST="" -->
+</head>
+<body>
+
+<center><b><font color="#000000"><font size=+3>Predicting Gene Ontology
+Biological Process from Temporal Gene Expression Patterns</font></font></b>
+<br><font color="#000000"><font size=+1>Astrid L&aelig;greid</font><sup>2&sect;</sup><font size=+1>,
+Torgeir Hvidsten</font><sup>1</sup><font size=+1>, Herman Midelfart</font><sup>1</sup><font size=+1>,
+Jan Komorowski</font><sup>31#</sup><font size=+1>, Arne K. Sandvik</font><sup>2&sect;</sup></font>
+<br><font color="#000000"><sup>1</sup>Department of Information and Computer
+Science, Norwegian University of Science and Technology, N-7491 Trondheim,
+NORWAY</font>
+<br><font color="#000000"><sup>2</sup>Department of Physiology and Biomedical
+Engineering, Norwegian University of Science and Technology, N-7489 Trondheim,
+NORWAY</font>
+<br><font color="#000000"><sup>3</sup>The Linnaeus Centre for Bioinformatics,
+Box 598, Uppsala University, SE-751 24&nbsp; Uppsala, SWEDEN</font>
+<br><font color="#000000"><sup>&sect;</sup>corresponding author: biomedicine:
+<a href="mailto:astrid.lagreid@medisin.ntnu.no">astrid.lagreid@medisin.ntnu.no</a></font>
+<br><font color="#000000"><sup>#</sup>corresponding author: bioinformatics:
+<a href="mailto:janko@idi.ntnu.no">janko@idi.ntnu.no</a></font></center>
+
+<p><br>
+<center><table BORDER WIDTH="100%" >
+<tr>
+<td BGCOLOR="#3366FF">
+<center><b><font size=+2>Resources</font></b></center>
+</td>
+
+<td BGCOLOR="#3366FF">
+<center><b><font size=+2>Pointers</font></b></center>
+</td>
+</tr>
+
+<tr>
+<td><b>The fibroblast serum response data:</b></td>
+
+<td><a href="http://genome-www.stanford.edu/serum/">http://genome-www.stanford.edu/serum/</a></td>
+</tr>
+
+<tr>
+<td><b>Gene Ontology (GO):</b></td>
+
+<td><a href="http://genome-www.stanford.edu/GO/">http://genome-www.stanford.edu/GO/</a></td>
+</tr>
+
+<tr>
+<td><b>Swissprot:</b></td>
+
+<td><a href="http://www.expasy.ch/sprot/">http://www.expasy.ch/sprot/</a></td>
+</tr>
+
+<tr>
+<td><b>Rough set theory: Introduction</b></td>
+
+<td>Ohrn and Rowland,&nbsp;
+<br><a href="../docs/Ohrn-intro.pdf">Rough sets: A knowledge discovery technique for multifactorial medical outcomes</a>.&nbsp;
+<br><i>American Journal of Physical Medicine&nbsp;</i>
+<br><i>&amp; Rehabilitation</i>, 79(1), 2000.</td>
+</tr>
+
+<tr>
+<td><b>The Rosetta system:</b></td>
+
+<td><a href="http://www.idi.ntnu.no/~aleks/rosetta">http://www.idi.ntnu.no/~aleks/rosetta</a></td>
+</tr>
+
+<tr>
+<td><b>The methodology implemented in Rosetta:</b></td>
+
+<td><a href="rosetta.html">DEMO</a></td>
+</tr>
+
+<tr>
+<td BGCOLOR="#3366FF">
+<center><b><font size=+2>Introduction</font></b></center>
+</td>
+
+<td></td>
+</tr>
+
+<tr>
+<td>
+<p class="MsoNormal" style="margin-right:14.15pt;text-align:justify;text-justify:
+inter-ideograph"><span style="font-size: 12.0pt">The aim of the present study 
+was to generate hypotheses on the involvement of uncharacterized genes in 
+biological processes. To this end, supervised learning was used to analyze 
+microarray-derived time-series gene expression data. Our method was objectively 
+evaluated on known genes using cross-validation and provided high precision Gene 
+Ontology biological process classifications for 211 of the 213 uncharacterized 
+genes in the data set used. In addition, new roles in&nbsp; biological process were 
+hypothesized for known genes. Our method uses biological knowledge expressed by 
+Gene Ontology and generates a rule model associating this knowledge with minimal 
+characteristic features of temporal gene expression profiles. This model allows 
+learning and classification of multiple&nbsp; biological process roles for each gene 
+and can predict participation of genes in a biological process even though the 
+genes of this class exhibit a wide variety of gene expression profiles including 
+inverse co-regulation. A considerable number of the hypothesized new&nbsp; roles for 
+known genes were confirmed by literature search. In addition, many&nbsp; biological 
+process roles hypothesized for uncharacterized genes were found to agree with 
+assumptions based on homology information. To our knowledge, a gene classifier 
+of similar scope and functionality has not been reported earlier.</span></p>
+<p class="MsoNormal" style="margin-right:14.15pt;text-align:justify;text-justify:
+inter-ideograph"><span style="font-size: 12.0pt">All annotations, 
+re-classifications of known genes and classification of uncharacterized genes 
+are available from our web-site: http://www.idi.ntnu.no/~torgeihv/fibroblast.</span></p>
+<p>The concept of our method was originally introduced in our <a href="http://psb.stanford.edu/index.html">PSB2001</a>
+paper:
+<br><a href="http://psb.stanford.edu/psb-online/proceedings/psb01/abstracts/p299.html">Predicting
+Gene Function from Gene Expressions and Ontologies&nbsp;</a>
+<br>T.R. Hvidsten, J. Komorowski, A.K. Sandvik, and A. L&aelig;greid ;
+Pacific Symposium on Biocomputing 6:299-310 (2001).</td>
+
+<td></td>
+</tr>
+
+<tr>
+<td BGCOLOR="#3333FF">
+<center><b><font size=+2>Data material</font></b></center>
+</td>
+
+<td></td>
+</tr>
+
+<tr>
+<td>The fibroblast serum response data includes gene expression level messurements
+for 493 unique genes (517 gene probes) over 12 time points from 0 to 24
+hours. (Iyer et al, 1999. The transcriptional program in the response of
+human fibroblasts to serum. Science 283:83-87)</td>
+
+<td><a href="http://genome-www.stanford.edu/serum/">http://genome-www.stanford.edu/serum/</a></td>
+</tr>
+
+<tr>
+<td BGCOLOR="#3366FF">
+<center><b><font size=+2>Methodology</font></b></center>
+</td>
+
+<td></td>
+</tr>
+
+<tr>
+<td><b>Step 1: Selecting functional classes (cellular processes) from the
+annotations obtained from Gene Ontology (GO)</b></td>
+
+<td>Annotations of known genes:
+<blockquote><a href="Table1.html">Table1.html</a></blockquote>
+Expression profiles for genes in the&nbsp;
+<br>different functional classes (also see
+<br>Figure 3A):
+<blockquote><a href="Figure1.pdf">Figure1.pdf</a></blockquote>
+Annotations compared to the 10 major&nbsp;
+<br>gene expression profile clusters found&nbsp;
+<br>by agglomerative hierarchical clustering&nbsp;
+<br>by Iyer et al.:
+<blockquote><a href="Figure2.pdf">Figure2.pdf</a></blockquote>
+</td>
+</tr>
+
+<tr>
+<td><b>Step 2: Feature synthesis</b>
+<p>A table is constructed in which all possible sub-intervals are columns
+and genes involved in one or more processes selected in Step 1 are rows.
+Each row is labelled with one of the processes from Step 1. Since one gene
+can be involved in more than one process, each gene can be represented
+by more than one row. An entry in the table is the template matching the
+given gene in the given sub-interval. Rows with only empty entries are
+discarded.&nbsp;
+<p>Three templates are used:&nbsp;
+<br><i>Constant:</i> Maximum variation from the mean expression value should
+not be larger than 0.2 over at least four consecutive time points.&nbsp;
+<br><i>Increasing:</i> An increase of at least 0.6 over at least 3 consecutive
+time points, starting and ending with an increase.&nbsp;
+<br><i>Decreasing: </i>An decrease of at least 0.6 over at least 3 consecutive
+time points, starting and ending with a decrease.</td>
+
+<td>Data transformed using the language of templates:<blockquote>
+  <p><a href="Table11.html">Table11.html</a></p>
+</blockquote>
+</td>
+</tr>
+
+<tr>
+<td><b>Step 3: Inducing/learning a predictive rule model</b>
+<p>Only one process is predicted at a time. The genes in the test sets
+are represented by all matching templates, hence we obtain an unbiased
+result that can be seen as a good indication of the quality of the classification
+of the unknown genes.&nbsp;
+<p>The sensitivity, specificity and accuracy resulting from classifying
+the test sets are all relative to a threshold value. The threshold is obtained
+by balancing specificity and sensitivity.</td>
+
+<td>The induced rules:&nbsp;
+<blockquote><a href="Table3.pdf">Table3.pdf</a>
+<br><a href="Table3.txt">Table3.txt</a> (extended)</blockquote>
+Classification quality (10-fold CV):&nbsp;
+<blockquote><a href="Table4.html">Table4.html</a></blockquote>
+Classifications in numbers:
+<blockquote><a href="Table5.html">Table5.html</a></blockquote>
+Rule model summary:
+<blockquote><a href="Table2.html">Table2.html</a></blockquote>
+</td>
+</tr>
+
+<tr>
+<td><b>Step 4: Classifying the genes</b>
+<br>A classifier is induced from the whole set of known genes selected
+in Step 1. Any processes getting a higher portion of votes than the threshold,
+is considered a possible classification.&nbsp;
+<p>The classifier was used both to classify unknown genes and to (re-)classify
+known genes.</td>
+
+<td>Re-classifications for known genes:&nbsp;
+<blockquote><a href="Table6.html">Table6.html</a>
+<br><a href="Figure3.pdf">Figure3.pdf</a></blockquote>
+Classifications for unknown genes:&nbsp;
+<blockquote><a href="Table9.html">Table9.html</a></blockquote>
+Classifications for unknown genes
+<br>coinciding with homology info:
+<blockquote><a href="Table10.html">Table10.html</a></blockquote>
+&nbsp;</td>
+</tr>
+
+<tr>
+<td><b>Step 5: Evaluating (re-)classifications</b>
+<br>(Re-)classifying known genes led to new functional hypotheses not previously
+annotated to the genes. We therefore re-examined the literature with these
+genes in mind and found that a large part of the hypotheses indeed reflected
+true knowledge.</td>
+
+<td>Co-regulated biological processes:
+<blockquote><a href="Table8.html">Table8.html</a></blockquote>
+Missing annotations discovered by&nbsp;
+<br>our classifier:
+<blockquote><a href="Table7.html">Table7.html</a></blockquote>
+</td>
+</tr>
+</table></center>
+
+<!-- Start of StatCounter Code -->
+<script type="text/javascript" language="javascript">
+var sc_project=930815; 
+var sc_invisible=1; 
+var sc_partition=7; 
+var sc_security="f1022f66"; 
+</script>
+
+<script type="text/javascript" language="javascript" src="http://www.statcounter.com/counter/counter.js"></script><noscript>
+<a href="http://www.statcounter.com/" target="_blank"><img  src="http://c8.statcounter.com/counter.php?sc_project=930815&amp;java=0&amp;security=f1022f66&amp;invisible=1" alt="hit counter script" border="0"></a></noscript>
+<!-- End of StatCounter Code -->
+
+</body>
+</html>

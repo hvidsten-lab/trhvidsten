@@ -1,0 +1,83 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="Author" CONTENT="Torgeir R.H.">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.0 [en] (Win95; I) [Netscape]">
+   <TITLE>Functional classification in Rosetta</TITLE>
+</HEAD>
+<BODY>
+
+<UL>
+<CENTER><B><FONT SIZE=+2>Functional Classification in Rosetta</FONT></B></CENTER>
+
+<CENTER><B><FONT SIZE=-2></FONT></B></CENTER>
+
+<CENTER><IMG SRC="start.gif" HEIGHT=316 WIDTH=519></CENTER>
+
+<CENTER></CENTER>
+We have implemented our methodology for functional classification of known
+and unknown genes from gene expression time serie data as a separate package
+in the Rosetta system (<A HREF="http://www.idi.ntnu.no/~aleks/rosetta">http://www.idi.ntnu.no/~aleks/rosetta</A>).
+This site gives a short demonstration of how this new package work. An
+executable version will be made available later.
+
+<P>The new package requires that the data is stored in a table where the
+first column is a unique&nbsp; identifier for each gene (e.g. gene symbol),
+while the last column is annotations. The intermediate columns contain
+the log-transformed expression level measured at each time point:
+
+<P><I><FONT FACE="Arial,Helvetica"><FONT SIZE=-1>Gene 0MIN 15MIN 30MIN
+1H 2H 4H 6H 8H 12H 16H 20H 24H Annotation</FONT></FONT></I>
+<BR><I><FONT FACE="Arial,Helvetica"><FONT SIZE=-1>String float(2) float(2)
+float(2) float(2) float(2) float(2) float(2) float(2) float(2) float(2)
+float(2) float(2) String</FONT></FONT></I>
+<BR><I><FONT FACE="Arial,Helvetica"><FONT SIZE=-1>"NO SYMBOL" 0.00 -0.235
+-1.895 -2.065 -0.35 -0.245 -0.98 -1.195 -1.435 -1.42 -0.8 -0.94 "unknown"</FONT></FONT></I>
+<BR><I><FONT FACE="Arial,Helvetica"><FONT SIZE=-1>"SEPP1" 0.00 0.33 0.365
+0.135 0.245 -0.3 -0.67 -0.37 -0.29 -0.22 -0.3 -0.42 "transport"</FONT></FONT></I>
+<BR><I><FONT FACE="Arial,Helvetica"><FONT SIZE=-1>"SEPP1" 0.00 0.33 0.365
+0.135 0.245 -0.3 -0.67 -0.37 -0.29 -0.22 -0.3 -0.42 "stress response"</FONT></FONT></I>
+<BR><I><FONT FACE="Arial,Helvetica"><FONT SIZE=-1>"PIN1" 0.00 0.07 0.05
+-0.02 -0.075 -0.365 -0.44 -0.24 -0.28 -0.435 -0.65 -1.12 "protein metabolism
+and modification"</FONT></FONT></I>
+<BR><I><FONT FACE="Arial,Helvetica"><FONT SIZE=-1>"PIN1" 0.00 0.07 0.05
+-0.02 -0.075 -0.365 -0.44 -0.24 -0.28 -0.435 -0.65 -1.12 "cell cycle"</FONT></FONT></I>
+<BR><I><FONT FACE="Arial,Helvetica"><FONT SIZE=-1>"EPB41L2" 0.00 -0.02
+-0.02 -0.115 -0.24 -0.36 -0.535 -0.58 -0.825 -0.9 -0.735 -0.62 "cell proliferation"</FONT></FONT></I>
+<BR><I><FONT FACE="Arial,Helvetica"><FONT SIZE=-1>"OA48-18" 0.00 0.14 0.325
+0.24 -0.03 -0.175 -0.39 -0.415 -0.405 -0.685 -0.54 -0.74 "cell proliferation"</FONT></FONT></I>
+<BR><I><FONT FACE="Arial,Helvetica"><FONT SIZE=-1>"NO SYMBOL" 0.00 0.27
+0.535 0.345 0.15 0.17 -0.07 -0.36 -0.37 -0.425 -0.535 -1.47 "unknown"</FONT></FONT></I>
+<BR><I><FONT FACE="Arial,Helvetica"><FONT SIZE=-1>...</FONT></FONT></I>
+
+<P>Note that the first two rows contains column name and column type respectively.
+Genes with multiple annotations are stored using several rows, one for
+each annotation (see SEPP1 and PIN1). Genes with unknown function has annotation
+"unknown".
+
+<P>The data is loaded into Rosetta by using "Rosetta table import format"
+as shown below:
+
+<P><IMG SRC="import.gif" HEIGHT=205 WIDTH=317>
+
+<P>Rosetta enables the user to browse the data and perform other operations
+such as deleting or hiding&nbsp; rows and columns:
+
+<P><IMG SRC="data.gif" HEIGHT=422 WIDTH=750>
+
+<P>To perform modelling and classification on the data, simply right click
+the data icon in the project and choose "Algorithm for Functional Genomics".
+The following menu will appear:
+
+<P><IMG SRC="algorithm.gif" HEIGHT=500 WIDTH=746>
+
+<P>The menu lets the user choose the most important parameters in the methodology.
+Refer the main page for more information on the methodology. The algorithm
+outputs classifications for unknown genes, (re)classifications for known
+genes, rules used to classify the unknown genes and cross validation estimates
+for the quality of the classifications:
+
+<P><IMG SRC="results.gif" HEIGHT=576 WIDTH=794></UL>
+
+</BODY>
+</HTML>

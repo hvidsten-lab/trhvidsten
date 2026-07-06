@@ -1,0 +1,263 @@
+ID	type	PAP	CK7	ER	Meso	"redo CDX2"	"Surf A"	CK20	GCDFP-15	TTF1	PSA	Lysozyme	CA125	CEA	Chromo	Kappa	Insulin	PPP	Muc5	pS2	hSP/Spasmo	"Surf B"	Clusterin	"Pep C ISH"	Hepat	"Pep C immuno"	Mamma	FABP	"CA 19-9"	Site
+Integer	String	String	String	String	String	String	String	String	String	String	String	String	String	String	String	String	String	String	String	String	String	String	String	String	String	String	String	String	String	String
+759	mucinous	-	0	1	1	1	-	3	0	-	-	0	Undefined	3	-	3	-	-	0	2	-	-	0	-	0	-	-	+	3	Ov
+710	"adeno PD"	-	3	1	2	1	-	0	0	-	-	1	2	3	-	2	-	-	1	1	-	-	0	-	0	-	-	-	1	Pa
+760	"Serous MD"	-	2	3	3	0	-	0	0	-	-	1	3	0	-	3	-	-	0	0	-	-	3	-	0	-	-	-	3	Ov
+712	"mucinous MD"	-	3	1	1	0	-	0	Undefined	-	-	3	1	1	-	2	-	-	3	2	Undefined	-	0	Undefined	0	-	Undefined	Undefined	Undefined	Pa
+762	"Serous PD"	-	2	3	2	0	-	0	0	-	-	0	2	0	-	2	-	-	0	0	-	-	3	-	0	-	-	-	Undefined	Ov
+716	"adeno MD"	-	3	1	1	1	-	1	0	-	-	1	3	3	+	3	-	-	3	1	-	-	3	-	0	-	-	-	3	Pa
+718	"adeno WD"	-	2	0	0	0	-	2	0	-	-	3	0	1	-	3	+	-	1	3	+	-	1	+	0	+	-	-	0	Pa
+719	"adeno MD"	-	3	1	2	1	-	0	0	-	-	3	2	2	+	2	-	+	0	0	-	-	1	-	0	-	-	-	3	Pa
+768	serous	-	2	3	3	0	-	0	3	-	-	0	3	0	-	2	-	-	0	0	-	+	0	-	0	-	-	-	3	Ov
+722	"mucinous PD"	-	2	0	2	0	-	0	0	-	-	1	2	3	+	2	+	-	3	2	-	-	3	-	0	-	-	-	0	Pa
+723	adeno	-	3	1	1	1	-	2	0	-	-	3	1	2	-	2	-	-	3	3	+	+	1	+	0	+	-	-	3	Pa
+724	"adeno MD"	-	3	1	1	1	-	0	0	-	-	0	1	1	-	1	-	-	0	3	-	-	0	-	0	-	-	-	3	Pa
+769	serous	-	1	3	3	0	-	0	0	-	-	0	3	0	-	2	-	-	0	0	-	-	3	-	0	-	-	-	0	Ov
+725	"mucinous PD"	Undefined	Undefined	0	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Pa
+726	"mucinous WD"	Undefined	3	1	Undefined	Undefined	Undefined	1	Undefined	Undefined	-	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	-	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Pa
+728	"adeno MD"	-	3	1	2	0	-	0	Undefined	-	-	0	2	2	-	2	-	-	0	2	Undefined	-	0	Undefined	0	-	-	Undefined	Undefined	Pa
+772	"mucinous MD"	-	1	1	0	3	-	3	0	-	-	1	0	0	-	2	-	-	1	3	+	-	1	-	1	-	-	-	3	Ov
+773	serous	-	3	1	1	1	-	0	0	-	-	0	3	0	-	2	-	-	0	0	-	-	3	-	0	-	-	-	0	Ov
+730	"adeno MD"	-	3	0	0	Undefined	-	0	Undefined	-	-	Undefined	2	0	-	2	-	-	1	Undefined	Undefined	-	Undefined	Undefined	0	Undefined	Undefined	Undefined	Undefined	Pa
+775	"Serous MD"	-	2	3	2	Undefined	Undefined	0	Undefined	Undefined	-	Undefined	2	0	Undefined	Undefined	Undefined	-	0	Undefined	Undefined	-	Undefined	-	Undefined	Undefined	Undefined	Undefined	Undefined	Ov
+776	serous	-	3	2	3	1	-	0	0	-	-	1	3	0	-	3	-	-	0	0	-	-	3	-	0	-	-	-	0	Ov
+732	"adeno PD"	-	3	1	2	1	-	1	1	-	-	3	2	1	+	2	-	-	0	2	-	-	0	-	0	-	-	-	3	Pa
+778	"Serous PD"	-	2	2	3	0	-	0	0	-	-	0	3	0	-	2	-	-	0	0	-	-	0	-	0	-	-	-	1	Ov
+733	"adeno WD"	-	3	1	2	1	-	2	0	-	-	1	3	3	-	3	-	-	1	0	-	-	0	-	0	-	-	-	3	Pa
+734	"adeno MD"	-	3	1	1	1	-	2	0	-	-	3	0	2	-	2	-	-	0	3	-	-	0	-	0	+	-	-	3	Pa
+647	"intestinal MD"	-	0	1	0	1	-	1	0	-	-	3	1	1	+	3	-	-	0	1	-	-	0	-	0	-	-	-	3	Ga
+380	adeno	+	0	0	0	0	-	0	0	-	+	0	0	0	-	2	-	-	0	0	-	-	0	-	0	-	-	-	0	Pr
+650	"intestinal MD"	-	3	1	3	1	-	0	0	-	-	3	2	3	-	2	-	-	1	0	-	-	0	-	0	-	-	-	3	Ga
+485	"serous adeno"	-	2	3	3	1	-	0	0	-	-	0	2	0	-	1	-	-	0	0	-	-	3	-	0	-	-	-	3	Ov
+416	"adeno MD"	-	2	1	1	1	-	3	1	-	-	3	0	3	+	2	-	-	3	3	-	-	3	-	0	-	-	-	3	Pa
+382	adeno	+	0	2	0	0	-	0	0	-	+	0	0	0	-	2	-	-	0	0	-	-	0	-	0	-	-	-	0	Pr
+384	adeno	+	0	2	0	0	-	1	0	+	+	0	0	0	-	2	-	-	0	1	-	-	0	-	0	-	-	-	0	Pr
+652	"intestinal PD"	-	3	1	0	1	-	0	1	-	-	3	0	3	-	2	-	+	1	0	-	-	1	-	0	-	-	-	1	Ga
+418	"mucinous WD"	-	3	1	2	0	-	3	0	-	-	3	3	3	-	2	-	-	3	3	-	-	0	-	0	-	-	-	3	Pa
+420	"adeno MD"	-	3	1	1	1	-	0	0	-	-	1	2	3	-	2	-	-	3	2	-	-	0	-	0	-	-	-	3	Pa
+486	"serous adeno"	-	2	3	3	1	-	0	0	-	-	0	3	0	-	1	-	-	0	0	-	-	3	-	0	-	-	-	1	Ov
+386	adeno	+	0	0	0	0	-	1	0	-	+	3	0	0	-	2	-	-	0	0	-	-	1	-	0	+	-	-	1	Pr
+423	adeno	-	3	1	1	1	-	0	0	-	-	1	2	0	+	2	-	-	0	0	-	-	3	-	0	-	-	-	3	Pa
+655	"intestinal MD"	-	1	0	1	1	-	0	0	-	-	3	0	1	-	1	-	-	1	0	-	-	1	-	0	-	-	-	3	Ga
+387	Adeno	+	0	0	0	0	-	0	0	-	+	0	0	0	-	2	-	-	0	0	-	-	0	-	0	-	-	-	0	Pr
+576	"adeno MD"	-	0	0	0	3	-	3	0	-	-	3	0	3	-	3	-	-	0	0	-	-	0	-	0	-	-	+	3	Co
+452	"adeno MD"	-	3	0	0	0	-	1	0	-	-	3	0	0	-	2	-	-	0	3	-	-	0	-	1	-	-	-	3	Pa
+577	"adeno MD"	-	0	1	0	3	-	2	0	-	-	1	0	3	+	1	-	-	0	0	-	-	0	-	0	-	-	-	3	Co
+578	"adeno MD"	-	0	0	0	3	-	0	0	-	-	3	0	3	+	1	-	-	0	0	-	-	0	-	0	-	-	+	3	Co
+454	"adeno MD"	-	3	1	2	1	-	0	1	-	-	1	3	1	-	3	-	-	0	0	+	-	0	-	0	-	-	-	3	Pa
+411	adeno	+	0	0	0	Undefined	-	0	Undefined	-	+	0	0	0	+	2	-	-	0	0	-	Undefined	0	-	0	-	-	Undefined	Undefined	Pr
+584	"adeno MD"	-	0	0	0	3	-	3	1	-	-	3	0	3	-	3	-	-	0	0	-	-	0	-	0	-	-	+	3	Co
+581	"adeno MD"	-	0	0	1	3	-	1	0	-	-	1	0	3	-	1	-	-	0	0	-	-	0	-	0	-	-	-	1	Co
+586	"adeno MD"	-	0	0	0	3	-	1	0	-	-	3	0	3	-	3	-	+	0	1	-	-	1	-	0	-	-	+	3	Co
+501	"mucinous WD"	-	3	Undefined	0	0	-	2	0	-	-	3	1	2	-	2	-	-	3	3	-	-	1	-	0	-	-	-	0	Ov
+589	"adeno MD"	-	0	0	0	3	-	2	1	-	-	3	0	3	-	2	-	-	0	1	-	-	1	-	0	-	-	+	3	Co
+596	"adeno MD"	-	0	0	0	3	-	2	0	-	-	3	0	3	+	3	-	-	0	0	-	-	0	-	0	-	-	-	3	Co
+595	"adeno MD"	-	0	0	0	1	-	2	0	-	-	3	0	3	-	3	-	-	3	2	-	-	0	-	0	-	-	-	3	Co
+458	"adeno PD"	-	3	1	0	0	-	0	0	-	-	3	0	0	-	2	-	-	0	0	-	-	0	-	0	-	-	-	3	Pa
+460	"adeno MD"	-	3	1	1	1	-	1	0	-	-	3	2	3	-	3	-	-	3	2	Undefined	-	0	-	0	-	-	-	0	Pa
+597	"adeno MD"	-	0	0	0	3	-	2	0	-	-	3	0	3	-	2	-	-	0	0	-	-	0	-	0	-	-	+	3	Co
+466	"adeno PD"	-	3	1	3	0	-	0	0	-	-	1	3	3	-	2	-	-	0	1	+	+	0	Undefined	0	-	Undefined	-	3	Pa
+602	"adeno MD"	-	0	0	0	3	-	3	3	-	-	3	0	3	-	2	-	-	0	0	-	+	0	-	0	-	-	+	3	Co
+462	"adeno WD"	-	3	1	2	0	-	1	0	-	-	3	3	2	+	3	-	-	1	3	Undefined	-	3	-	0	-	-	-	3	Pa
+684	"adeno PD"	-	0	0	0	0	-	0	0	-	-	3	0	0	-	2	-	-	0	0	-	-	0	-	0	-	-	-	1	Ga
+685	"intestinal MD"	-	2	0	1	3	-	0	1	-	-	3	0	0	-	2	-	-	0	0	+	-	1	-	2	-	-	-	3	Ga
+603	"adeno MD"	-	0	0	0	3	-	1	0	-	-	1	0	3	-	3	-	-	0	0	-	-	0	-	0	-	-	+	0	Co
+604	"adeno PD"	-	0	0	2	3	-	3	0	-	-	3	1	3	-	2	-	-	0	0	-	-	0	-	0	-	-	+	3	Co
+686	"adeno MD"	-	2	0	1	0	-	0	0	-	-	3	0	2	-	3	-	-	0	0	+	-	1	-	1	-	-	-	0	Ga
+688	diffuse	-	0	0	0	0	-	3	1	-	-	3	0	2	-	2	-	-	0	0	Undefined	-	1	+	0	-	-	+	1	Ga
+605	"adeno MD"	-	0	0	0	3	-	0	0	-	-	0	0	2	-	2	-	-	0	0	-	-	1	-	0	-	-	-	1	Co
+608	"adeno MD"	-	0	0	0	3	-	3	3	-	-	3	0	3	-	2	-	-	3	2	-	+	0	-	0	+	-	-	3	Co
+612	"adeno MD"	-	0	0	0	3	-	3	3	-	-	1	0	3	-	1	-	-	0	0	-	+	1	-	0	-	-	+	3	Co
+611	"adeno MD"	-	0	0	0	3	-	2	0	-	-	3	0	3	-	2	-	-	0	3	-	-	1	-	0	+	-	-	0	Co
+610	"adeno MD"	-	0	0	0	3	-	3	1	-	-	3	0	3	-	2	-	-	0	0	-	-	0	-	0	-	-	+	3	Co
+961	"mucinous MD"	-	2	0	0	0	-	0	1	-	+	3	1	0	-	1	-	-	0	0	-	-	3	-	0	-	-	-	0	Ov
+965	"mucinous PD"	-	2	3	1	0	-	0	0	-	-	0	1	0	-	1	-	Undefined	0	0	-	-	3	-	0	-	-	-	Undefined	Ov
+1017	intestinal	-	0	0	0	1	-	0	0	-	-	3	0	1	-	2	-	-	3	0	-	-	1	-	0	+	-	-	1	Ga
+853	"adeno WD"	-	2	0	0	0	+	0	0	+	-	1	0	0	-	2	-	-	0	0	-	+	1	-	0	-	-	-	0	Lu
+857	"adeno PD"	-	3	1	1	0	+	0	0	+	-	3	0	0	-	2	-	-	0	0	-	+	0	-	0	-	-	-	1	Lu
+858	"adeno MD"	-	2	0	0	0	+	0	0	+	-	3	0	2	-	2	-	-	0	1	-	+	0	-	2	-	-	-	1	Lu
+865	"adeno MD"	-	2	0	2	1	+	0	0	+	-	1	1	0	-	3	-	-	0	0	-	+	0	-	0	-	-	-	3	Lu
+869	"adeno MD"	-	2	0	3	0	+	1	0	+	-	1	3	3	-	1	-	-	3	1	-	+	3	-	3	-	-	-	3	Lu
+782	"Serous PD"	-	1	2	3	Undefined	Undefined	0	Undefined	-	-	Undefined	3	0	Undefined	1	-	Undefined	0	Undefined	Undefined	Undefined	Undefined	Undefined	0	Undefined	Undefined	-	Undefined	Ov
+872	"adeno MD"	-	2	0	0	0	+	0	0	+	-	1	0	0	-	3	-	-	0	0	-	+	0	-	0	-	-	-	0	Lu
+1016	intestinal	-	3	0	1	0	-	1	0	-	-	3	1	1	-	0	-	-	0	1	-	-	0	-	0	-	-	-	3	Ga
+874	"adeno MD"	-	3	0	0	0	+	0	0	+	-	3	2	0	-	2	-	-	0	0	-	+	0	-	0	-	-	Undefined	3	Lu
+877	adeno	-	3	0	3	0	+	0	0	+	-	1	2	3	-	2	-	-	1	0	-	+	0	-	2	+	-	-	3	Lu
+879	"adeno PD"	-	3	3	0	0	+	0	1	+	-	1	2	0	-	1	-	-	0	0	-	+	1	-	0	-	-	-	0	Lu
+880	"adeno MD"	-	2	1	0	0	+	0	0	+	-	1	0	3	-	2	-	-	0	0	-	+	0	-	0	-	-	-	0	Lu
+882	adeno	-	1	0	0	0	+	0	0	+	-	3	2	2	-	2	-	-	0	0	-	-	0	-	0	-	-	-	0	Lu
+884	"adeno WD"	-	3	1	0	0	+	0	0	+	-	3	0	0	-	3	-	-	0	0	-	+	0	-	0	-	-	-	3	Lu
+889	"adeno PD"	-	3	0	0	0	+	0	0	+	-	1	0	0	-	2	-	-	0	0	-	+	0	-	0	-	-	-	3	Lu
+893	"adeno MD"	-	2	0	2	0	+	0	0	+	-	3	0	3	-	3	-	-	3	1	-	+	3	+	3	+	-	-	3	Lu
+898	"adeno MD"	-	3	1	0	0	+	0	0	+	-	0	2	0	-	2	-	-	0	0	-	+	1	-	0	-	-	-	0	Lu
+901	"adeno MD"	-	3	1	3	0	+	0	0	+	-	3	1	0	-	3	-	-	0	0	-	+	0	+	3	+	-	-	0	Lu
+902	adeno	-	3	0	2	1	+	0	0	+	-	0	0	1	-	1	-	-	0	0	-	+	0	+	0	+	-	-	1	Lu
+903	"adeno MD"	-	2	0	0	0	-	0	0	+	-	3	0	2	-	2	-	-	Undefined	0	-	+	0	-	2	-	-	-	0	Lu
+905	"adeno PD"	-	3	2	0	0	+	0	0	+	-	1	1	0	-	1	-	-	0	0	-	+	0	-	0	-	-	-	Undefined	Lu
+909	"adeno PD"	-	3	0	2	Undefined	Undefined	0	Undefined	+	-	Undefined	2	0	-	2	-	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	0	Undefined	Undefined	Undefined	Undefined	Lu
+910	"adeno WD"	Undefined	3	1	2	0	+	0	0	+	-	0	Undefined	0	-	Undefined	-	-	Undefined	0	-	Undefined	0	-	Undefined	-	Undefined	-	Undefined	Lu
+911	"adeno MD"	-	3	0	2	0	+	0	0	-	-	0	2	1	-	1	-	-	0	0	-	+	0	-	0	-	-	-	3	Lu
+912	"adeno PD"	-	3	0	0	0	+	0	0	+	-	1	0	0	-	1	-	-	0	0	-	+	0	-	0	-	-	-	0	Lu
+917	"adeno WD"	-	2	0	0	0	+	0	0	+	-	1	0	0	-	2	-	-	0	0	-	+	0	-	0	-	-	-	3	Lu
+918	"adeno WD"	-	1	0	3	0	+	0	0	+	-	3	2	2	-	3	-	-	0	0	-	+	0	-	0	-	-	-	3	Lu
+921	"adeno MD"	-	3	1	0	0	-	0	0	+	-	3	2	1	-	3	-	-	0	0	-	-	0	-	0	-	-	Undefined	0	Lu
+924	"adeno PD"	-	3	1	2	0	+	1	0	+	-	1	1	2	-	2	-	-	3	0	-	+	0	-	0	-	-	-	3	Lu
+73	adeno	-	2	2	2	0	+	0	0	+	-	0	1	1	-	2	-	-	0	0	-	+	0	-	0	-	-	-	0	Lu
+40	intestinal	-	0	0	0	3	-	3	0	-	-	3	0	2	-	2	-	-	0	1	-	-	0	-	0	-	-	+	0	Ga
+262	lobular	-	3	3	0	0	-	0	1	-	-	0	1	0	-	1	-	-	0	0	-	-	0	-	0	-	+	-	1	Br
+247	"adeno MD"	-	3	1	2	0	+	0	3	+	-	3	1	0	-	2	-	-	0	0	-	+	0	-	0	-	-	-	0	Lu
+233	"adeno PD"	-	2	0	0	0	+	0	0	+	-	1	0	0	-	3	-	-	0	0	-	-	0	-	0	-	-	-	0	Lu
+51	"adeno PD"	-	3	0	2	Undefined	Undefined	0	Undefined	+	-	Undefined	0	3	-	3	-	Undefined	0	Undefined	Undefined	Undefined	Undefined	-	2	Undefined	Undefined	Undefined	Undefined	Lu
+263	"adeno PD"	-	2	0	0	0	+	0	0	+	-	3	2	2	-	2	-	-	0	0	-	+	0	-	0	-	-	-	0	Lu
+148	lobular	-	3	3	0	0	-	0	0	-	-	0	0	0	-	2	-	-	0	0	-	-	0	-	0	-	-	-	0	Br
+269	lobular	-	3	3	0	0	-	0	3	-	-	0	1	0	-	0	-	-	0	2	-	-	3	-	0	-	+	-	0	Br
+273	"adeno PD"	-	2	0	2	0	+	0	0	+	-	3	3	3	-	2	-	-	0	0	-	+	3	-	0	-	-	-	0	Lu
+87	"intestinal PD"	-	0	0	1	0	-	0	0	-	+	3	0	0	-	2	-	+	0	1	+	+	0	-	2	+	-	-	3	Ga
+370	adeno	+	0	0	0	0	-	0	0	-	+	0	0	0	-	0	-	-	0	0	-	-	0	-	0	-	-	-	0	Pr
+368	adeno	+	0	0	0	0	-	0	0	-	+	0	0	0	-	1	-	-	0	0	-	-	0	-	0	-	-	-	0	Pr
+709	"adeno MD"	-	3	1	2	0	-	0	1	-	-	1	0	1	-	3	-	+	1	0	-	-	1	-	0	-	-	-	3	Pa
+757	"mucinous PD"	+	1	3	3	1	-	0	3	-	-	0	3	0	-	1	-	-	0	0	-	-	3	-	0	-	-	-	0	Ov
+487	"serous adeno"	+	2	1	2	0	-	0	0	-	-	0	1	0	-	3	-	-	0	0	-	-	1	-	0	-	-	-	0	Ov
+388	adeno	+	0	0	0	0	-	0	0	-	+	0	0	0	-	1	-	-	0	0	-	+	0	-	0	-	-	-	0	Pr
+390	adeno	-	0	0	0	1	-	0	1	+	+	1	0	0	-	1	-	-	0	0	-	-	0	-	0	-	-	-	1	Pr
+658	"intestinal MD"	-	0	0	0	Undefined	-	3	Undefined	-	-	Undefined	0	1	-	2	-	-	0	0	Undefined	-	Undefined	Undefined	1	Undefined	Undefined	Undefined	Undefined	Ga
+657	"adeno MD"	-	3	0	2	1	-	1	0	-	-	3	0	3	-	3	-	-	0	1	-	-	0	-	1	-	-	-	3	Ga
+391	adeno	+	0	0	0	0	-	0	1	-	+	1	1	0	-	2	-	-	0	0	-	-	0	-	0	-	-	-	1	Pr
+392	adeno	+	0	1	0	0	-	0	0	-	+	0	0	0	-	3	-	-	0	0	-	-	1	-	0	-	-	-	0	Pr
+393	adeno	+	0	0	0	0	-	0	0	-	+	1	0	0	-	2	-	-	0	0	-	-	0	-	0	-	-	-	0	Pr
+489	"serous adeno"	-	2	2	3	1	-	0	0	-	-	1	3	0	-	3	-	-	0	0	-	-	3	-	0	-	-	-	0	Ov
+659	"intestinal MD"	-	0	0	1	3	-	0	1	-	-	3	0	3	-	2	-	-	0	0	-	-	0	-	2	+	-	-	3	Ga
+426	"adeno MD"	-	2	0	1	0	-	0	0	-	-	3	1	2	+	2	-	-	3	3	-	-	3	-	0	-	-	-	1	Pa
+428	"adeno PD"	-	2	1	1	1	-	0	0	-	-	3	0	2	-	2	-	-	1	2	-	-	3	-	0	+	-	-	1	Pa
+660	"intestinal MD"	-	2	0	1	1	-	0	0	-	-	3	3	2	-	2	-	-	0	1	-	-	0	-	0	-	-	-	3	Ga
+430	"adeno MD"	-	1	1	1	1	-	0	0	-	-	3	0	3	-	3	-	+	3	3	-	-	0	-	0	+	-	-	3	Pa
+662	"adeno MD"	-	2	0	1	1	-	0	0	-	-	3	1	0	-	3	-	+	1	2	+	-	3	+	0	+	-	-	3	Ga
+492	"Serous PD"	-	3	3	3	0	-	0	0	-	-	0	3	0	-	3	-	-	0	0	-	-	3	-	0	-	-	-	0	Ov
+432	"adeno PD"	-	2	0	1	0	-	0	0	-	-	Undefined	2	3	-	2	-	-	0	0	-	-	Undefined	-	0	-	-	-	1	Pa
+434	"adeno MD"	-	3	1	2	1	-	3	1	-	-	3	3	2	-	2	-	+	3	3	-	-	3	+	0	+	-	-	3	Pa
+437	"adeno MD"	-	3	1	2	0	-	0	1	-	-	1	1	0	-	2	-	Undefined	0	0	-	-	3	-	0	-	-	-	3	Pa
+503	"adeno MD"	-	0	0	0	3	-	2	0	-	-	1	0	3	-	2	-	-	0	2	-	-	1	-	0	+	-	+	3	Co
+502	"adeno MD"	-	0	0	1	1	-	3	1	-	-	3	1	3	-	2	-	-	0	3	-	+	0	-	0	-	-	-	3	Co
+714	"adeno MD"	-	3	0	2	0	-	0	0	-	-	1	2	3	-	2	-	-	0	1	-	-	0	-	0	-	-	-	1	Pa
+508	"adeno MD"	-	0	0	0	3	-	3	1	-	-	3	0	3	-	2	-	-	0	0	-	-	0	-	0	-	-	+	3	Co
+513	"adeno MD"	-	0	0	0	1	-	2	0	-	-	0	0	2	-	1	-	-	0	0	-	-	0	-	0	-	-	+	3	Co
+514	"adeno MD"	-	0	1	0	0	-	1	3	-	-	0	0	3	-	2	-	-	0	0	Undefined	+	0	-	0	-	Undefined	-	3	Co
+515	"adeno MD"	-	0	0	1	1	-	0	0	-	-	1	0	2	-	2	-	+	0	1	Undefined	-	0	-	0	-	Undefined	-	3	Co
+516	"adeno MD"	-	0	1	0	3	-	0	0	-	-	3	0	2	-	2	-	-	0	1	-	-	0	-	0	-	-	+	3	Co
+439	"adeno MD"	-	3	1	0	1	-	1	3	-	-	3	2	2	-	2	-	-	3	0	-	-	3	-	0	-	-	-	3	Pa
+667	"diffuse MD"	Undefined	2	0	2	0	-	0	0	-	-	3	0	0	-	2	-	-	0	0	+	-	0	+	0	-	-	-	3	Ga
+519	"adeno MD"	-	0	0	1	3	-	2	0	-	-	3	0	3	-	2	-	+	0	0	-	-	0	-	0	-	-	+	1	Co
+668	"adeno PD"	-	0	0	0	0	-	0	0	-	-	1	0	0	-	2	-	-	0	0	-	-	0	-	0	-	-	-	0	Ga
+520	"adeno MD"	-	0	0	0	3	-	3	0	-	-	3	0	3	-	2	-	-	0	0	-	-	1	-	0	-	-	+	1	Co
+527	"adeno MD"	-	0	0	0	3	-	3	0	-	-	0	0	1	-	3	-	-	0	0	-	-	0	-	0	-	-	+	0	Co
+531	"adeno MD"	-	0	0	0	3	-	3	1	-	-	0	0	3	-	2	-	-	0	1	-	-	0	-	0	-	-	+	3	Co
+441	"adeno MD"	-	2	1	1	0	-	0	0	-	-	3	0	0	-	2	-	-	0	3	+	-	3	+	0	+	-	-	1	Pa
+535	"adeno MD"	-	0	0	0	3	-	3	1	-	-	0	0	3	-	2	-	-	0	0	-	-	0	-	0	-	-	+	3	Co
+545	Adeno	-	0	0	1	3	-	0	0	-	-	0	0	1	-	1	-	-	0	0	-	-	0	-	1	-	-	-	0	Co
+442	"adeno PD"	-	3	1	3	1	-	0	0	+	-	1	3	2	-	1	-	-	0	0	-	-	3	-	0	+	-	-	0	Pa
+546	"adeno MD"	-	0	1	1	3	-	1	1	-	-	1	0	3	-	2	-	-	0	1	-	-	0	-	0	-	-	+	3	Co
+548	"adeno MD"	-	0	0	0	3	-	0	0	-	-	1	0	3	-	2	-	-	0	0	-	-	1	-	0	-	-	-	1	Co
+498	"serous adeno"	-	3	3	2	0	-	0	0	-	-	0	3	0	-	1	-	-	0	0	-	-	0	-	0	-	-	-	3	Ov
+551	"adeno MD"	-	0	0	0	3	-	3	0	-	-	1	0	3	-	3	-	-	0	0	-	-	0	-	0	-	-	-	3	Co
+444	"adeno PD"	-	3	0	2	0	-	1	0	-	-	3	2	2	-	1	-	-	0	1	-	-	0	-	0	-	-	-	1	Pa
+669	"intestinal MD"	-	0	0	0	0	-	1	0	-	-	3	0	3	-	3	-	-	0	0	+	-	0	-	0	-	-	-	0	Ga
+554	"adeno MD"	-	0	1	0	3	-	3	1	-	-	3	1	3	+	3	-	-	0	0	-	+	0	-	0	-	-	+	3	Co
+555	"adeno MD"	-	0	1	0	3	-	1	0	-	-	3	0	3	-	2	-	+	0	0	-	-	0	-	0	-	-	-	3	Co
+556	"adeno MD"	-	0	Undefined	0	3	-	2	1	-	-	3	0	Undefined	-	2	-	-	0	0	-	-	0	-	0	-	-	-	3	Co
+559	"adeno MD"	-	0	1	0	3	-	3	0	-	-	1	0	2	-	3	-	-	0	2	-	-	0	-	0	-	-	+	3	Co
+562	"adeno MD"	-	2	0	0	0	-	2	0	-	-	0	0	0	-	2	-	-	1	3	Undefined	-	0	-	0	-	-	-	3	Co
+563	"adeno MD"	-	0	0	0	3	-	3	0	-	-	3	0	3	-	2	-	-	0	0	-	-	1	-	0	-	-	-	3	Co
+447	"adeno PD"	-	3	0	2	0	-	1	0	-	-	1	2	2	-	1	-	-	0	3	-	-	1	-	0	-	Undefined	-	3	Pa
+565	"adeno MD"	-	0	0	0	3	-	3	0	-	-	0	0	3	-	2	-	-	0	0	-	-	0	-	0	-	-	-	0	Co
+568	"adeno MD"	-	0	0	1	0	-	3	0	-	-	3	0	3	-	2	-	+	0	3	-	-	0	-	0	-	-	+	3	Co
+569	"adeno MD"	-	0	0	0	3	-	3	0	-	-	3	0	3	-	2	-	-	0	0	Undefined	-	0	-	0	-	Undefined	-	3	Co
+570	"adeno MD"	-	0	0	0	3	-	3	0	-	-	1	0	3	-	3	-	+	0	0	-	-	0	-	0	-	-	+	3	Co
+573	"adeno MD"	-	0	0	0	3	-	0	0	-	-	0	0	3	-	2	-	-	0	0	-	-	0	-	0	-	Undefined	+	0	Co
+678	"diffuse PD"	-	2	0	0	1	-	0	1	-	-	3	0	2	+	2	-	-	3	2	+	-	0	+	0	-	-	-	3	Ga
+679	"diffuse PD"	-	1	0	2	0	-	0	0	-	-	3	0	2	-	3	-	-	1	0	-	-	0	-	0	-	-	-	0	Ga
+681	"diffuse PD"	-	1	0	0	0	-	0	0	-	-	3	0	0	-	2	-	-	0	3	-	-	3	+	2	+	-	-	0	Ga
+575	"adeno MD"	-	0	0	0	3	-	1	0	-	-	3	0	3	-	2	-	-	0	2	Undefined	Undefined	0	Undefined	0	-	Undefined	-	0	Co
+564	"adeno MD"	-	3	3	0	1	-	0	0	-	-	1	0	0	-	3	-	-	0	0	-	-	3	-	0	-	-	-	3	Co
+31	ductal	-	1	3	0	0	-	0	0	-	-	0	0	0	-	2	Undefined	-	0	1	-	-	0	-	Undefined	-	-	-	1	Br
+174	ductal	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	-	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	-	Undefined	Undefined	Undefined	Undefined	Undefined	Br
+316	ductal	-	3	3	0	0	-	0	3	-	-	0	2	0	-	1	Undefined	-	0	0	-	-	0	-	0	-	-	-	0	Br
+165	"diffuse PD"	-	0	Undefined	0	0	-	2	0	-	-	0	0	2	-	2	Undefined	-	0	Undefined	-	-	0	Undefined	0	-	-	-	0	Ga
+318	ductal	-	0	2	0	0	-	0	1	-	-	0	0	0	-	3	-	-	0	0	-	-	1	-	0	-	-	-	0	Br
+116	ductal	-	2	0	0	Undefined	-	0	0	-	-	1	1	0	-	2	Undefined	-	0	Undefined	-	-	0	-	0	-	-	-	3	Br
+194	ductal	-	3	3	0	0	-	0	3	-	-	0	0	0	-	1	Undefined	-	0	0	-	-	0	-	0	-	-	-	0	Br
+138	ductal	-	2	2	0	0	-	0	Undefined	-	-	0	0	0	-	2	Undefined	-	0	Undefined	-	-	0	Undefined	0	-	Undefined	Undefined	Undefined	Br
+317	ductal	-	3	3	0	Undefined	Undefined	0	Undefined	Undefined	-	Undefined	0	0	-	2	-	Undefined	0	Undefined	Undefined	Undefined	Undefined	Undefined	0	Undefined	Undefined	Undefined	Undefined	Br
+27	"adeno PD"	-	3	0	3	0	-	0	0	-	-	1	2	3	-	2	-	-	3	2	-	-	1	-	0	-	-	-	0	Ga
+104	ductal	-	3	3	0	0	-	0	3	-	-	0	1	0	-	1	-	-	0	1	-	-	3	-	0	-	-	-	0	Br
+321	ductal	-	3	3	0	0	-	0	3	-	-	0	0	0	-	1	-	-	0	0	-	-	3	-	0	-	-	-	3	Br
+361	adeno	+	0	0	0	0	Undefined	0	Undefined	Undefined	+	Undefined	0	0	-	3	Undefined	Undefined	0	Undefined	-	-	1	-	Undefined	-	-	-	0	Pr
+793	"adeno MD"	-	3	0	2	0	-	0	0	-	-	0	1	3	+	2	-	+	1	0	-	-	3	-	0	+	-	-	3	Pa
+323	ductal	-	1	3	0	0	-	0	1	-	-	0	0	3	+	3	-	-	0	1	-	-	3	Undefined	2	-	+	-	0	Br
+135	ductal	-	3	0	0	0	-	0	3	-	-	1	0	0	-	3	-	-	0	0	-	+	3	-	0	-	-	-	0	Br
+223	ductal	-	3	3	0	0	-	0	3	-	-	0	0	0	-	1	-	-	0	1	-	-	3	-	0	-	-	-	0	Br
+91	ductal	-	1	2	0	0	-	0	3	-	-	0	0	1	-	2	-	-	0	1	-	-	3	-	0	-	-	-	0	Br
+39	ductal	-	3	3	0	0	-	0	1	-	-	3	0	0	-	3	-	-	0	2	-	-	3	-	0	-	+	-	3	Br
+320	"adeno PD"	-	2	0	0	Undefined	+	0	0	+	-	1	2	1	-	3	-	-	0	0	-	+	Undefined	Undefined	0	-	Undefined	-	Undefined	Lu
+146	ductal	-	2	0	0	0	-	0	0	-	-	1	1	0	-	2	-	-	0	0	-	-	1	-	0	-	-	-	3	Br
+324	ductal	-	3	0	0	0	-	0	1	-	-	0	0	0	-	1	-	-	0	2	-	-	3	-	0	-	-	-	1	Br
+211	ductal	-	2	3	0	0	-	0	0	-	-	0	0	0	-	3	-	-	0	0	-	-	1	-	0	-	-	-	0	Br
+222	ductal	-	0	0	0	0	-	0	1	-	-	0	0	0	-	1	-	-	0	0	-	-	0	-	0	-	+	-	0	Br
+188	ductal	-	3	3	0	0	-	0	3	-	-	3	1	0	-	2	-	-	0	0	-	-	3	-	0	-	+	-	0	Br
+157	ductal	-	3	2	0	0	-	1	3	-	-	0	0	0	-	1	-	-	0	0	-	-	3	-	0	-	-	-	0	Br
+113	ductal	-	3	0	2	0	-	0	0	-	-	0	0	0	-	1	-	-	0	0	-	-	1	-	0	-	-	-	1	Br
+131	diffuse	-	0	0	0	3	-	0	0	-	-	0	0	0	-	2	-	-	0	0	-	-	1	-	0	-	-	-	0	Ga
+5	"adeno MD"	-	3	0	0	0	+	0	1	+	-	0	1	3	-	3	-	-	0	0	-	+	0	-	0	-	-	-	3	Lu
+96	ductal	-	2	0	0	0	-	1	1	-	-	0	0	0	-	2	-	-	0	0	-	-	3	Undefined	0	-	+	-	3	Br
+347	"adeno MD"	-	1	0	0	3	-	2	0	-	-	3	0	1	-	2	-	-	0	1	-	-	3	-	0	-	-	-	3	Ga
+325	"adeno MD"	-	2	0	2	0	-	0	0	+	-	3	3	3	-	3	-	-	0	0	-	+	3	-	2	-	-	-	0	Lu
+76	ductal	-	3	3	0	0	-	0	3	-	-	3	1	0	-	2	-	-	0	0	-	-	1	-	0	-	-	-	0	Br
+328	ductal	-	3	2	0	Undefined	Undefined	0	1	Undefined	-	Undefined	0	0	-	2	-	-	0	Undefined	Undefined	Undefined	Undefined	Undefined	0	Undefined	Undefined	Undefined	Undefined	Br
+176	ductal	-	3	3	0	0	-	1	3	-	-	0	0	0	-	2	-	-	0	3	-	-	0	-	0	-	-	-	3	Br
+83	"adeno MD"	-	1	0	2	0	-	1	0	-	-	3	0	3	-	2	-	-	1	3	-	-	0	-	0	-	-	-	3	Ga
+100	"adeno MD"	-	1	0	1	0	-	0	0	-	-	3	0	0	-	3	-	-	1	2	-	-	3	-	0	+	-	-	1	Ga
+349	"adeno PD"	-	0	0	1	0	-	0	0	-	-	3	0	0	-	2	-	-	0	0	-	-	0	-	3	-	-	-	0	Ga
+191	"adeno MD"	-	3	1	0	0	+	0	3	+	-	1	3	0	-	3	-	-	0	0	-	+	0	-	0	+	-	-	0	Lu
+365	adeno	+	0	0	0	0	-	0	0	-	+	0	0	0	-	3	-	-	0	0	-	-	0	-	0	-	-	-	Undefined	Pr
+213	"adeno PD"	-	0	0	2	1	-	0	0	+	-	1	0	0	-	2	-	-	0	0	-	-	3	-	0	-	-	-	1	Ga
+984	"Adeno MD"	-	2	0	1	Undefined	-	2	0	-	-	0	1	2	-	0	-	-	0	0	-	-	Undefined	Undefined	0	-	Undefined	-	Undefined	Pa
+978	"adeno PD"	-	3	0	3	0	-	0	0	-	-	0	2	0	-	2	-	-	0	1	-	-	0	-	0	-	-	-	1	Pa
+998	Mucinous	-	0	0	1	3	-	0	0	-	-	0	1	2	-	1	-	-	0	2	-	-	0	-	0	-	-	-	3	Ov
+986	"adeno WD"	-	2	0	1	0	-	3	0	-	-	3	0	2	+	1	-	-	3	3	+	-	1	-	0	+	-	-	3	Pa
+987	"MD adeno"	-	3	0	1	0	-	0	0	-	-	0	2	1	-	2	-	-	3	3	-	-	0	-	0	-	-	-	1	Pa
+988	"adeno MD"	-	3	0	3	0	-	0	0	-	-	1	0	0	-	1	-	-	3	2	-	-	0	Undefined	1	+	Undefined	-	Undefined	Pa
+697	"mucinous MD"	-	2	0	1	0	-	1	0	-	-	0	1	2	+	0	-	-	1	1	-	-	Undefined	Undefined	0	-	-	-	3	Pa
+748	"Serous PD"	-	1	0	3	0	-	0	0	-	-	0	2	0	-	2	-	-	0	0	-	-	0	-	0	-	-	-	0	Ov
+989	"Adeno MD"	-	3	0	2	0	-	0	0	-	-	3	2	2	+	2	-	-	1	3	-	-	0	-	0	-	-	-	3	Pa
+750	"Serous PD"	-	2	3	3	0	-	0	0	-	-	0	1	0	-	1	-	-	0	0	-	-	0	-	0	-	-	-	0	Ov
+1018	mucinous	-	3	2	2	0	-	0	0	-	-	0	0	0	-	0	-	-	0	0	-	-	3	-	0	-	-	-	0	Ov
+700	"adeno PD"	Undefined	3	0	Undefined	Undefined	Undefined	0	Undefined	Undefined	-	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Pa
+702	"mucinous MD"	Undefined	2	0	Undefined	Undefined	Undefined	0	Undefined	Undefined	-	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Pa
+753	"Serous PD"	-	3	2	3	0	-	0	0	-	-	0	3	0	-	2	-	-	0	0	-	-	0	-	0	-	-	-	3	Ov
+701	"adeno PD"	-	3	0	2	0	-	0	0	-	-	0	3	2	-	2	-	-	3	2	-	-	1	-	0	-	-	-	3	Pa
+703	"adeno WD"	-	3	0	1	0	-	0	0	-	-	3	0	1	-	3	Undefined	-	3	1	-	-	3	-	0	+	-	-	3	Pa
+705	"mucinous PD"	-	0	0	0	0	-	0	0	-	-	0	0	0	-	2	-	-	0	0	-	-	0	-	0	-	-	Undefined	0	Pa
+756	"mucinous MD"	-	1	3	2	0	-	0	0	-	-	0	3	1	-	2	-	-	1	0	-	-	1	-	0	+	-	-	3	Ov
+179	"diffuse PD"	-	0	0	0	0	-	0	0	-	-	3	1	3	-	3	-	-	0	3	+	+	3	-	1	-	-	+	3	Ga
+275	"adeno MD"	-	3	0	0	0	+	0	0	+	-	1	0	0	-	2	-	-	0	0	-	-	0	Undefined	0	-	Undefined	-	Undefined	Lu
+276	"adeno PD"	-	1	0	1	0	-	0	Undefined	+	-	1	0	0	-	2	-	-	0	0	-	Undefined	Undefined	-	2	-	Undefined	-	Undefined	Lu
+134	"adeno PD"	-	3	2	0	0	+	0	0	+	-	3	0	0	-	3	-	-	0	0	-	+	0	-	0	-	-	-	0	Lu
+190	Adeno	-	3	0	1	1	+	0	0	-	-	3	1	0	-	2	-	-	0	3	-	+	0	-	0	+	-	-	3	Lu
+154	lobular	-	3	3	0	0	-	0	3	-	-	0	2	0	-	2	-	-	0	3	-	-	3	-	0	-	+	-	3	Br
+197	"adeno PD"	-	0	0	0	0	-	0	0	-	-	3	0	0	-	2	-	-	0	0	-	+	0	-	0	-	-	-	0	Ga
+291	lobular	Undefined	3	3	Undefined	Undefined	Undefined	0	Undefined	Undefined	-	Undefined	Undefined	0	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Br
+358	adeno	+	0	0	0	0	-	0	Undefined	-	+	0	0	0	-	2	-	-	0	0	-	-	0	-	0	-	Undefined	-	Undefined	Pr
+297	lobular	-	0	0	0	0	-	0	3	-	-	1	0	0	-	1	-	-	0	2	-	-	3	-	0	-	+	-	0	Br
+288	"adeno PD"	-	2	1	2	0	+	0	0	+	-	3	1	0	-	3	-	-	1	0	-	+	0	Undefined	2	-	Undefined	-	Undefined	Lu
+7	"adeno MD"	-	2	0	0	3	-	3	0	-	-	3	0	2	-	3	-	-	0	0	-	-	0	-	2	-	-	+	1	Ga
+14	lobular	-	2	2	0	0	-	0	3	-	-	3	0	0	-	2	-	-	0	0	-	-	0	-	0	-	+	-	0	Br
+790	"adeno PD"	-	3	0	0	0	-	2	0	-	-	3	1	1	-	1	-	-	1	3	-	-	1	-	0	+	-	-	3	Pa
+362	adeno	+	0	0	0	0	-	0	0	-	+	0	0	0	-	1	-	-	0	0	-	-	0	-	0	-	-	-	0	Pr
+363	adeno	+	0	0	0	0	-	0	0	-	+	0	0	0	-	1	-	-	0	0	-	-	0	-	0	-	-	-	0	Pr
+309	"adeno MD"	-	0	0	0	3	-	3	1	-	-	3	0	0	-	2	-	-	0	2	-	-	1	-	0	-	-	+	3	Lu
+791	"adeno MD"	-	3	0	2	0	-	1	0	-	-	3	0	0	-	2	-	-	1	0	-	-	0	-	0	+	-	-	3	Pa
+305	"adeno PD"	-	2	0	3	0	+	0	0	-	-	1	2	2	-	2	-	-	0	0	-	+	3	-	2	-	-	-	3	Lu
+199	"adeno PD"	-	3	0	1	0	+	0	1	+	-	1	3	2	-	2	-	-	0	0	-	+	1	-	0	-	-	-	3	Lu
+111	ductal	-	3	3	0	0	-	0	3	-	-	0	0	0	-	0	-	-	0	0	-	-	3	-	0	+	-	-	1	Br
+207	ductal	-	3	3	0	0	-	0	3	-	-	3	0	0	-	1	-	-	0	0	-	-	3	-	0	-	+	-	3	Br
+46	"adeno PD"	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Lu
+114	mucinous	Undefined	0	0	Undefined	Undefined	Undefined	0	Undefined	Undefined	-	Undefined	Undefined	0	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Undefined	Ov

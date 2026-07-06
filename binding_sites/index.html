@@ -1,0 +1,870 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns:st1="urn:schemas-microsoft-com:office:smarttags"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 10">
+<meta name=Originator content="Microsoft Word 10">
+<link rel=File-List href="index_files/filelist.xml">
+<title>Discovering regulatory binding site modules using rule-based learning</title>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="PostalCode"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="Street"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="address"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="PlaceName"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="PlaceType"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="State"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="country-region"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="City" downloadurl="http://www.5iamas-microsoft-com:office:smarttags"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="place" downloadurl="http://www.5iantlavalamp.com/"/>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Torgeir Hvidsten</o:Author>
+  <o:LastAuthor>Torgeir Hvidsten</o:LastAuthor>
+  <o:Revision>31</o:Revision>
+  <o:TotalTime>49</o:TotalTime>
+  <o:Created>2003-12-08T09:10:00Z</o:Created>
+  <o:LastSaved>2005-06-29T13:26:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>3616</o:Words>
+  <o:Characters>20614</o:Characters>
+  <o:Company> LCB</o:Company>
+  <o:Lines>171</o:Lines>
+  <o:Paragraphs>48</o:Paragraphs>
+  <o:CharactersWithSpaces>24182</o:CharactersWithSpaces>
+  <o:Version>10.2625</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <w:DocumentVariables>
+   <w:EN.InstantFormat>&lt;ENInstantFormat&gt;&lt;Enabled&gt;1&lt;/Enabled&gt;&lt;ScanUnformatted&gt;1&lt;/ScanUnformatted&gt;&lt;ScanChanges&gt;1&lt;/ScanChanges&gt;&lt;/ENInstantFormat&gt;</w:EN.InstantFormat>
+   <w:EN.Libraries>&lt;ENLibraries&gt;&lt;Libraries&gt;&lt;item&gt;gr.enl&lt;/item&gt;&lt;/Libraries&gt;&lt;/ENLibraries&gt;</w:EN.Libraries>
+   <w:EN.Layout>&lt;ENLayout&gt;&lt;Style&gt;Proteins&lt;/Style&gt;&lt;LeftDelim&gt;{&lt;/LeftDelim&gt;&lt;RightDelim&gt;}&lt;/RightDelim&gt;&lt;FontName&gt;Times<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp; </span>
+         New     
+    <span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;     </span>Roman&lt;/FontName&gt;&lt;FontSize&gt;12&lt;/FontSize&gt;&lt;ReflistTitle&gt;&lt;/ReflistTitle&gt;&lt;StartingRefnum&gt;1&lt;/StartingRefnum&gt;&lt;FirstLineIndent&gt;0&lt;/FirstLineIndent&gt;&lt;HangingIndent&gt;720&lt;/HangingIndent&gt;&lt;LineSpacing&gt;0&lt;/LineSpacing&gt;&lt;SpaceAfter&gt;0&lt;/SpaceAfter&gt;&lt;/ENLayout&gt;</w:EN.Layout>
+   <w:EN.Layout>&lt;ENLayout&gt;&lt;Style&gt;J Molecular<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;     </span>
+                                                           Biology&lt;/Style&gt;&lt;LeftDelim&gt;{&lt;/LeftDelim&gt;&lt;RightDelim&gt;}&lt;/RightDelim&gt;&lt;FontName&gt;Times                                                       
+    <span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                                                           New                                                       
+    <span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;     </span>Roman&lt;/FontName&gt;&lt;FontSize&gt;12&lt;/FontSize&gt;&lt;ReflistTitle&gt;&lt;/ReflistTitle&gt;&lt;StartingRefnum&gt;1&lt;/StartingRefnum&gt;&lt;FirstLineIndent&gt;0&lt;/FirstLineIndent&gt;&lt;HangingIndent&gt;720&lt;/HangingIndent&gt;&lt;LineSpacing&gt;0&lt;/LineSpacing&gt;&lt;SpaceAfter&gt;0&lt;/SpaceAfter&gt;&lt;/ENLayout&gt;</w:EN.Layout>
+   <w:EN.Libraries>&lt;ENLibraries&gt;&lt;Libraries&gt;&lt;item&gt;binding<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;     </span>sites.enl&lt;/item&gt;&lt;/Libraries&gt;&lt;/ENLibraries&gt;</w:EN.Libraries>
+  </w:DocumentVariables>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if !mso]><object
+ classid="clsid:38481807-CA0E-42D2-BF39-B33AF135CC4D" id=ieooui></object>
+<style>
+st1\:*{behavior:url(#ieooui) }
+</style>
+<![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:\5B8B\4F53;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 135135232 16 0 262145 0;}
+@font-face
+	{font-family:"\@SimSun";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 135135232 16 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:SimSun;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+span.eudoraheader
+	{mso-style-name:eudoraheader;}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:44188105;
+	mso-list-type:hybrid;
+	mso-list-template-ids:99228178 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l0:level1
+	{mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1
+	{mso-list-id:861241181;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-444592566 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l1:level1
+	{mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2
+	{mso-list-id:1733504003;
+	mso-list-template-ids:1125291010;}
+@list l3
+	{mso-list-id:2035576273;
+	mso-list-template-ids:-1919760772;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="9218"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-US link=blue vlink=purple style='tab-interval:36.0pt'>
+
+<div class=Section1>
+
+<p class=MsoNormal>This website contains supplementary material for:</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>T.R. Hvidsten, B. Wilczy&#324;ski, A. Kryshtafovych, J.
+Tiuryn, J. Komorowski and K. Fidelis. <a
+href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=15930496&amp;query_hl=1">Discovering
+regulatory binding site modules using rule-based learning</a>. <i
+style='mso-bidi-font-style:normal'>Genome Research </i>15: 856-66, 2005.</p>
+
+<div style='border:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:
+solid windowtext .75pt;padding:0cm 0cm 1.0pt 0cm'>
+
+<p class=MsoNormal style='border:none;mso-border-bottom-alt:solid windowtext .75pt;
+padding:0cm;mso-padding-alt:0cm 0cm 1.0pt 0cm'><o:p>&nbsp;</o:p></p>
+
+</div>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
+normal'><span lang=EN-GB style='font-size:20.0pt;mso-bidi-font-size:12.0pt;
+mso-ansi-language:EN-GB'>Discovering regulatory binding site modules using
+rule-based learning<o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN-GB
+style='font-size:20.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;mso-outline-level:
+1'><b style='mso-bidi-font-weight:normal'>Torgeir R. Hvidsten (1), Bartosz
+Wilczy</b><b style='mso-bidi-font-weight:normal'><span style='mso-fareast-font-family:
+"Times New Roman";mso-fareast-language:EN-US'>&#324;</span>ski (2,3), Andriy
+Kryshtafovych (2), <o:p></o:p></b></p>
+
+<p class=MsoNormal align=center style='text-align:center;mso-outline-level:
+1'><b style='mso-bidi-font-weight:normal'><span lang=PL style='mso-ansi-language:
+PL'>Jerzy Tiuryn (4), Jan Komorowski (1) and Krzysztof Fidelis (2)<o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
+normal'><span lang=PL style='mso-ansi-language:PL'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal align=center style='margin-top:0cm;margin-right:-36.0pt;
+margin-bottom:0cm;margin-left:-18.0pt;margin-bottom:.0001pt;text-align:center'><span
+style='font-size:11.0pt'>(1) The Linnaeus Centre for Bioinformatics, </span><st1:place><st1:City><span
+  style='font-size:11.0pt'>Uppsala University</span></st1:City><span
+ style='font-size:11.0pt'>, </span><st1:country-region><span style='font-size:
+  11.0pt'>Sweden</span></st1:country-region></st1:place><span style='font-size:
+11.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='margin-top:0cm;margin-right:-36.0pt;
+margin-bottom:0cm;margin-left:-18.0pt;margin-bottom:.0001pt;text-align:center'><span
+style='font-size:11.0pt'><a href="mailto:jan.komorowski@lcb.uu.se">jan.komorowski@lcb.uu.se</a><o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='margin-top:0cm;margin-right:-36.0pt;
+margin-bottom:0cm;margin-left:-18.0pt;margin-bottom:.0001pt;text-align:center'><span
+style='font-size:11.0pt'>(2) Biology and Biotechnology Research Program, </span><st1:City><st1:place><span
+  style='font-size:11.0pt'>Lawrence</span></st1:place></st1:City><span
+style='font-size:11.0pt'> </span><st1:City><st1:place><span style='font-size:
+  11.0pt'>Livermore</span></st1:place></st1:City><span style='font-size:11.0pt'>
+National </span><st1:place><st1:City><span style='font-size:11.0pt'>Laboratory</span></st1:City><span
+ style='font-size:11.0pt'>, </span><st1:State><span style='font-size:11.0pt'>CA</span></st1:State><span
+ style='font-size:11.0pt'>, </span><st1:country-region><span style='font-size:
+  11.0pt'>USA</span></st1:country-region></st1:place><span style='font-size:
+11.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='margin-top:0cm;margin-right:-36.0pt;
+margin-bottom:0cm;margin-left:-18.0pt;margin-bottom:.0001pt;text-align:center'><span
+style='font-size:11.0pt'><a href="mailto:fidelis@llnl.gov">fidelis@llnl.gov</a><o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='margin-top:0cm;margin-right:-36.0pt;
+margin-bottom:0cm;margin-left:-18.0pt;margin-bottom:.0001pt;text-align:center'>(3)
+<st1:place><st1:PlaceType>Institute</st1:PlaceType> of <st1:PlaceName>Mathematics</st1:PlaceName></st1:place>
+of the <st1:place><st1:PlaceName>Polish</st1:PlaceName> <st1:PlaceType>Academy</st1:PlaceType></st1:place>
+of Sciences, <st1:place><st1:City>Warsaw</st1:City>, <st1:country-region>Poland</st1:country-region></st1:place></p>
+
+<p class=MsoNormal align=center style='margin-top:0cm;margin-right:-36.0pt;
+margin-bottom:0cm;margin-left:-18.0pt;margin-bottom:.0001pt;text-align:center'>(4)
+Faculty of Mathematics, Informatics, and Mechanics, <st1:place><st1:City>Warsaw
+  University</st1:City>, <st1:country-region>Poland</st1:country-region></st1:place></p>
+
+<p class=MsoNormal align=center style='margin-top:0cm;margin-right:-36.0pt;
+margin-bottom:0cm;margin-left:-18.0pt;margin-bottom:.0001pt;text-align:center'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal align=center style='margin-top:0cm;margin-right:-36.0pt;
+margin-bottom:0cm;margin-left:-18.0pt;margin-bottom:.0001pt;text-align:center'><b
+style='mso-bidi-font-weight:normal'>Corresponding authors:<o:p></o:p></b></p>
+
+<p class=MsoNormal align=center style='margin-top:0cm;margin-right:-36.0pt;
+margin-bottom:0cm;margin-left:-18.0pt;margin-bottom:.0001pt;text-align:center'><span
+class=eudoraheader>Krzysztof </span>Fidelis, Biology and Biotechnology Research
+Program, </p>
+
+<p class=MsoNormal align=center style='margin-top:0cm;margin-right:-36.0pt;
+margin-bottom:0cm;margin-left:-18.0pt;margin-bottom:.0001pt;text-align:center'><st1:City><st1:place>Lawrence</st1:place></st1:City>
+<st1:City><st1:place>Livermore</st1:place></st1:City> National Laboratory, <st1:Street><st1:address>7000
+  East Ave.</st1:address></st1:Street>, L-448, <st1:place><st1:City>Livermore</st1:City>,
+ <st1:State>CA</st1:State>, <st1:PostalCode>94550</st1:PostalCode>, <st1:country-region>USA</st1:country-region></st1:place>.</p>
+
+<div style='border:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:
+solid windowtext .75pt;padding:0cm 0cm 1.0pt 0cm'>
+
+<p class=MsoNormal style='border:none;mso-border-bottom-alt:solid windowtext .75pt;
+padding:0cm;mso-padding-alt:0cm 0cm 1.0pt 0cm'><o:p>&nbsp;</o:p></p>
+
+</div>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:14.0pt'>Rules and evaluation to binding data and
+<a href="http://www.geneontology.org/">Gene Ontology</a><o:p></o:p></span></b></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>The induced rules and their evaluation to binding data<!--[if supportFields]><span
+style='mso-element:field-begin'></span> ADDIN EN.CITE &lt;EndNote&gt;&lt;Cite&gt;&lt;Author&gt;Lee&lt;/Author&gt;&lt;Year&gt;2002&lt;/Year&gt;&lt;RecNum&gt;17&lt;/RecNum&gt;&lt;MDL&gt;&lt;REFERENCE_TYPE&gt;0&lt;/REFERENCE_TYPE&gt;&lt;REFNUM&gt;17&lt;/REFNUM&gt;&lt;AUTHORS&gt;&lt;AUTHOR&gt;Lee,
+T. I.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Rinaldi, N.
+J.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Robert, F.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Odom, D.
+T.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Bar-Joseph,
+Z.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Gerber, G.
+K.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Hannett, N.
+M.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Harbison, C.
+T.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Thompson, C.
+M.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Simon, I.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Zeitlinger,
+J.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Jennings, E.
+G.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Murray, H.
+L.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Gordon, D. B.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Ren,
+B.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Wyrick, J. J.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Tagne,
+J. B.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Volkert, T.
+L.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Fraenkel, E.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Gifford,
+D. K.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Young, R. A.&lt;/AUTHOR&gt;&lt;/AUTHORS&gt;&lt;YEAR&gt;2002&lt;/YEAR&gt;&lt;TITLE&gt;Transcriptional
+regulatory networks in Saccharomyces
+cerevisiae&lt;/TITLE&gt;&lt;SECONDARY_TITLE&gt;Science&lt;/SECONDARY_TITLE&gt;&lt;VOLUME&gt;298&lt;/VOLUME&gt;&lt;NUMBER&gt;5594&lt;/NUMBER&gt;&lt;PAGES&gt;799-804&lt;/PAGES&gt;&lt;DATE&gt;Oct
+25&lt;/DATE&gt;&lt;ACCESSION_NUMBER&gt;12399584&lt;/ACCESSION_NUMBER&gt;&lt;KEYWORDS&gt;&lt;KEYWORD&gt;Algorithms&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Cell
+Cycle&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Computational
+Biology&lt;/KEYWORD&gt;&lt;KEYWORD&gt;DNA,
+Fungal/genetics/metabolism&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Feedback, Biochemical&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Gene
+Expression Profiling&lt;/KEYWORD&gt;&lt;KEYWORD&gt;*Gene Expression Regulation,
+Fungal&lt;/KEYWORD&gt;&lt;KEYWORD&gt;*Genes,
+Fungal&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Genome,
+Fungal&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Models,
+Genetic&lt;/KEYWORD&gt;&lt;KEYWORD&gt;*Promoter Regions
+(Genetics)&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Protein
+Binding&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Saccharomyces cerevisiae/cytology/*genetics/growth
+&amp;amp;&lt;/KEYWORD&gt;&lt;KEYWORD&gt;development/metabolism&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Saccharomyces
+cerevisiae Proteins/genetics/*metabolism&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Support,
+Non-U.S. Gov&amp;apos;t&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Support, U.S.
+Gov&amp;apos;t, Non-P.H.S.&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Support, U.S.
+Gov&amp;apos;t, P.H.S.&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Transcription
+Factors/genetics/*metabolism&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Transcription,
+Genetic&lt;/KEYWORD&gt;&lt;/KEYWORDS&gt;&lt;URL&gt;http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;amp;db=PubMed&amp;amp;dopt=Citation&amp;amp;list_uids=12399584&lt;/URL&gt;&lt;AUTHOR_ADDRESS&gt;Whitehead
+Institute for Biomedical Research, Nine Cambridge Center, Cambridge, MA 02142,
+USA.&lt;/AUTHOR_ADDRESS&gt;&lt;/MDL&gt;&lt;/Cite&gt;&lt;/EndNote&gt;<span
+style='mso-element:field-separator'></span><![endif]--><sup>1</sup><!--[if supportFields]><span
+style='mso-element:field-end'></span><![endif]--> and Gene Ontology<!--[if supportFields]><span
+style='mso-element:field-begin'></span> ADDIN EN.CITE
+&lt;EndNote&gt;&lt;Cite&gt;&lt;Author&gt;Ashburner&lt;/Author&gt;&lt;Year&gt;2000&lt;/Year&gt;&lt;RecNum&gt;9&lt;/RecNum&gt;&lt;MDL&gt;&lt;REFERENCE_TYPE&gt;0&lt;/REFERENCE_TYPE&gt;&lt;REFNUM&gt;9&lt;/REFNUM&gt;&lt;ACCESSION_NUMBER&gt;10802651&lt;/ACCESSION_NUMBER&gt;&lt;VOLUME&gt;25&lt;/VOLUME&gt;&lt;NUMBER&gt;1&lt;/NUMBER&gt;&lt;YEAR&gt;2000&lt;/YEAR&gt;&lt;DATE&gt;May&lt;/DATE&gt;&lt;TITLE&gt;Gene
+ontology: tool for the unification of biology. The Gene Ontology
+Consortium&lt;/TITLE&gt;&lt;PAGES&gt;25-9&lt;/PAGES&gt;&lt;AUTHOR_ADDRESS&gt;Department
+of Genetics, Stanford University School of Medicine, California, USA.
+cherry@stanford.edu&lt;/AUTHOR_ADDRESS&gt;&lt;AUTHORS&gt;&lt;AUTHOR&gt;Ashburner,
+M.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Ball, C. A.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Blake,
+J. A.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Botstein,
+D.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Butler, H.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Cherry,
+J. M.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Davis, A.
+P.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Dolinski, K.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Dwight,
+S. S.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Eppig, J. T.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Harris,
+M. A.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Hill, D.
+P.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Issel-Tarver,
+L.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Kasarskis, A.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Lewis,
+S.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Matese, J. C.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Richardson,
+J. E.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Ringwald,
+M.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Rubin, G. M.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Sherlock,
+G.&lt;/AUTHOR&gt;&lt;/AUTHORS&gt;&lt;SECONDARY_TITLE&gt;Nat
+Genet&lt;/SECONDARY_TITLE&gt;&lt;KEYWORDS&gt;&lt;KEYWORD&gt;Animal&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Computer
+Communication Networks&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Databases,
+Factual&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Eukaryotic Cells/*physiology&lt;/KEYWORD&gt;&lt;KEYWORD&gt;*Genes,
+Structural&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Human&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Metaphysics&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Mice&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Molecular
+Biology/*trends&lt;/KEYWORD&gt;&lt;KEYWORD&gt;*Sequence Analysis,
+DNA&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Support, Non-U.S.
+Gov&amp;apos;t&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Support, U.S. Gov&amp;apos;t,
+P.H.S.&lt;/KEYWORD&gt;&lt;KEYWORD&gt;*Terminology&lt;/KEYWORD&gt;&lt;/KEYWORDS&gt;&lt;URL&gt;http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;amp;db=PubMed&amp;amp;dopt=Citation&amp;amp;list_uids=10802651&lt;/URL&gt;&lt;/MDL&gt;&lt;/Cite&gt;&lt;/EndNote&gt;<span
+style='mso-element:field-separator'></span><![endif]--><sup>2</sup><!--[if supportFields]><span
+style='mso-element:field-end'></span><![endif]--> for six expression studies
+using known binding sites (<span style='font-size:14.0pt'><a href="format.html">file
+format</a></span>):</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<ol style='margin-top:0cm' start=1 type=1>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo3;tab-stops:list 36.0pt'><span
+     lang=EN-GB style='mso-ansi-language:EN-GB'><a href="rules-cell_cycle.html">cell
+     cycle</a></span><!--[if supportFields]><span lang=EN-GB style='mso-ansi-language:
+     EN-GB'><span style='mso-element:field-begin'></span> ADDIN EN.CITE
+     &lt;EndNote&gt;&lt;Cite&gt;&lt;Author&gt;Cho&lt;/Author&gt;&lt;Year&gt;1998&lt;/Year&gt;&lt;RecNum&gt;1&lt;/RecNum&gt;&lt;MDL&gt;&lt;REFERENCE_TYPE&gt;0&lt;/REFERENCE_TYPE&gt;&lt;REFNUM&gt;1&lt;/REFNUM&gt;&lt;ACCESSION_NUMBER&gt;9702192&lt;/ACCESSION_NUMBER&gt;&lt;VOLUME&gt;2&lt;/VOLUME&gt;&lt;NUMBER&gt;1&lt;/NUMBER&gt;&lt;YEAR&gt;1998&lt;/YEAR&gt;&lt;DATE&gt;Jul&lt;/DATE&gt;&lt;TITLE&gt;A
+     genome-wide transcriptional analysis of the mitotic cell
+     cycle&lt;/TITLE&gt;&lt;PAGES&gt;65-73&lt;/PAGES&gt;&lt;AUTHOR_ADDRESS&gt;Department
+     of Genetics, Stanford University School of Medicine, California 94305,
+     USA.&lt;/AUTHOR_ADDRESS&gt;&lt;AUTHORS&gt;&lt;AUTHOR&gt;Cho, R.
+     J.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Campbell, M.
+     J.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Winzeler, E.
+     A.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Steinmetz,
+     L.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Conway, A.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Wodicka,
+     L.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Wolfsberg, T.
+     G.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Gabrielian, A.
+     E.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Landsman,
+     D.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Lockhart, D.
+     J.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Davis, R. W.&lt;/AUTHOR&gt;&lt;/AUTHORS&gt;&lt;SECONDARY_TITLE&gt;Mol
+     Cell&lt;/SECONDARY_TITLE&gt;&lt;KEYWORDS&gt;&lt;KEYWORD&gt;Cell Cycle&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Chromosome
+     Mapping&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Chromosomes,
+     Fungal/*genetics&lt;/KEYWORD&gt;&lt;KEYWORD&gt;DNA,
+     Fungal/genetics&lt;/KEYWORD&gt;&lt;KEYWORD&gt;*Gene Expression Regulation,
+     Fungal&lt;/KEYWORD&gt;&lt;KEYWORD&gt;*Genome,
+     Fungal&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Mitosis/*genetics&lt;/KEYWORD&gt;&lt;KEYWORD&gt;RNA,
+     Fungal/*biosynthesis/genetics&lt;/KEYWORD&gt;&lt;KEYWORD&gt;RNA,
+     Messenger/*biosynthesis/genetics&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Saccharomyces
+     cerevisiae/cytology/*genetics/metabolism&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Support,
+     U.S. Gov&amp;apos;t, P.H.S.&lt;/KEYWORD&gt;&lt;KEYWORD&gt;*Transcription,
+     Genetic&lt;/KEYWORD&gt;&lt;/KEYWORDS&gt;&lt;URL&gt;http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;amp;db=PubMed&amp;amp;dopt=Citation&amp;amp;list_uids=9702192&lt;/URL&gt;&lt;/MDL&gt;&lt;/Cite&gt;&lt;/EndNote&gt;<span
+     style='mso-element:field-separator'></span></span><![endif]--><span
+     lang=EN-GB style='mso-ansi-language:EN-GB'><sup>3</sup></span><!--[if supportFields]><span
+     lang=EN-GB style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></span><![endif]--><span
+     lang=EN-GB style='mso-ansi-language:EN-GB'><span
+     style='mso-spacerun:yes'>  </span>(including putative motifs: <a
+     href="rules-cell_cycle-putative.html">cell cycle</a>)</span></li>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo3;tab-stops:list 36.0pt'><span
+     lang=EN-GB style='mso-ansi-language:EN-GB'><a href="rules-sporulation.html">sporulation</a></span><!--[if supportFields]><span
+     lang=EN-GB style='mso-ansi-language:EN-GB'><span style='mso-element:field-begin'></span>
+     ADDIN EN.CITE
+     &lt;EndNote&gt;&lt;Cite&gt;&lt;Author&gt;Chu&lt;/Author&gt;&lt;Year&gt;1998&lt;/Year&gt;&lt;RecNum&gt;2&lt;/RecNum&gt;&lt;MDL&gt;&lt;REFERENCE_TYPE&gt;0&lt;/REFERENCE_TYPE&gt;&lt;REFNUM&gt;2&lt;/REFNUM&gt;&lt;ACCESSION_NUMBER&gt;9784122&lt;/ACCESSION_NUMBER&gt;&lt;VOLUME&gt;282&lt;/VOLUME&gt;&lt;NUMBER&gt;5389&lt;/NUMBER&gt;&lt;YEAR&gt;1998&lt;/YEAR&gt;&lt;DATE&gt;Oct
+     23&lt;/DATE&gt;&lt;TITLE&gt;The transcriptional program of sporulation in
+     budding yeast&lt;/TITLE&gt;&lt;PAGES&gt;699-705&lt;/PAGES&gt;&lt;AUTHOR_ADDRESS&gt;Department
+     of Biochemistry and Biophysics, University of California, San Francisco,
+     San Francisco, CA 94143-0448,
+     USA.&lt;/AUTHOR_ADDRESS&gt;&lt;AUTHORS&gt;&lt;AUTHOR&gt;Chu,
+     S.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;DeRisi,
+     J.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Eisen,
+     M.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Mulholland, J.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Botstein,
+     D.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Brown, P.
+     O.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Herskowitz,
+     I.&lt;/AUTHOR&gt;&lt;/AUTHORS&gt;&lt;SECONDARY_TITLE&gt;Science&lt;/SECONDARY_TITLE&gt;&lt;KEYWORDS&gt;&lt;KEYWORD&gt;Animal&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Chromosomes,
+     Fungal/physiology&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Fungal
+     Proteins/genetics/metabolism&lt;/KEYWORD&gt;&lt;KEYWORD&gt;*Gene
+     Expression Regulation, Fungal&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Genes,
+     Fungal&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Genome,
+     Fungal&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Human&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Meiosis/*genetics&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Morphogenesis&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Organelles/ultrastructure&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Saccharomyces
+     cerevisiae/*genetics/physiology&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Spores,
+     Fungal/*genetics/physiology/ultrastructure&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Support,
+     Non-U.S. Gov&amp;apos;t&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Support, U.S.
+     Gov&amp;apos;t, P.H.S.&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Transcription
+     Factors/genetics/metabolism&lt;/KEYWORD&gt;&lt;KEYWORD&gt;*Transcription,
+     Genetic&lt;/KEYWORD&gt;&lt;/KEYWORDS&gt;&lt;URL&gt;http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;amp;db=PubMed&amp;amp;dopt=Citation&amp;amp;list_uids=9784122&lt;/URL&gt;&lt;/MDL&gt;&lt;/Cite&gt;&lt;/EndNote&gt;<span
+     style='mso-element:field-separator'></span></span><![endif]--><span
+     lang=EN-GB style='mso-ansi-language:EN-GB'><sup>4</sup></span><!--[if supportFields]><span
+     lang=EN-GB style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></span><![endif]--></li>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo3;tab-stops:list 36.0pt'><span
+     lang=EN-GB style='mso-ansi-language:EN-GB'><a
+     href="rules-diauxic_shift.html">diauxic shift</a></span><!--[if supportFields]><span
+     lang=EN-GB style='mso-ansi-language:EN-GB'><span style='mso-element:field-begin'></span>
+     ADDIN EN.CITE
+     &lt;EndNote&gt;&lt;Cite&gt;&lt;Author&gt;DeRisi&lt;/Author&gt;&lt;Year&gt;1997&lt;/Year&gt;&lt;RecNum&gt;3&lt;/RecNum&gt;&lt;MDL&gt;&lt;REFERENCE_TYPE&gt;0&lt;/REFERENCE_TYPE&gt;&lt;REFNUM&gt;3&lt;/REFNUM&gt;&lt;ACCESSION_NUMBER&gt;9381177&lt;/ACCESSION_NUMBER&gt;&lt;VOLUME&gt;278&lt;/VOLUME&gt;&lt;NUMBER&gt;5338&lt;/NUMBER&gt;&lt;YEAR&gt;1997&lt;/YEAR&gt;&lt;DATE&gt;Oct
+     24&lt;/DATE&gt;&lt;TITLE&gt;Exploring the metabolic and genetic control of
+     gene expression on a genomic
+     scale&lt;/TITLE&gt;&lt;PAGES&gt;680-6&lt;/PAGES&gt;&lt;AUTHOR_ADDRESS&gt;Department
+     of Biochemistry, Stanford University School of Medicine, Howard Hughes
+     Medical Institute, Stanford, CA 94305-5428, USA.&lt;/AUTHOR_ADDRESS&gt;&lt;AUTHORS&gt;&lt;AUTHOR&gt;DeRisi,
+     J. L.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Iyer, V.
+     R.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Brown, P.
+     O.&lt;/AUTHOR&gt;&lt;/AUTHORS&gt;&lt;SECONDARY_TITLE&gt;Science&lt;/SECONDARY_TITLE&gt;&lt;KEYWORDS&gt;&lt;KEYWORD&gt;Citric
+     Acid Cycle&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Culture
+     Media&lt;/KEYWORD&gt;&lt;KEYWORD&gt;DNA-Binding
+     Proteins/genetics/metabolism&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Fermentation&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Fungal
+     Proteins/genetics/metabolism&lt;/KEYWORD&gt;&lt;KEYWORD&gt;*Gene
+     Expression Regulation, Fungal&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Genes, Fungal&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Genes,
+     Regulator&lt;/KEYWORD&gt;&lt;KEYWORD&gt;*Genome,
+     Fungal&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Gluconeogenesis&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Glucose/metabolism&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Glyoxylates/metabolism&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Open
+     Reading Frames&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Oxygen
+     Consumption&lt;/KEYWORD&gt;&lt;KEYWORD&gt;RNA, Fungal/genetics/metabolism&lt;/KEYWORD&gt;&lt;KEYWORD&gt;RNA,
+     Messenger/genetics/metabolism&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Repressor
+     Proteins/genetics/metabolism&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Saccharomyces
+     cerevisiae/*genetics/growth &amp;amp; development/*metabolism&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Support,
+     Non-U.S. Gov&amp;apos;t&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Support, U.S.
+     Gov&amp;apos;t, P.H.S.&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Transcription
+     Factors/genetics/metabolism&lt;/KEYWORD&gt;&lt;/KEYWORDS&gt;&lt;URL&gt;http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;amp;db=PubMed&amp;amp;dopt=Citation&amp;amp;list_uids=9381177&lt;/URL&gt;&lt;/MDL&gt;&lt;/Cite&gt;&lt;/EndNote&gt;<span
+     style='mso-element:field-separator'></span></span><![endif]--><span
+     lang=EN-GB style='mso-ansi-language:EN-GB'><sup>5</sup></span><!--[if supportFields]><span
+     lang=EN-GB style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></span><![endif]--></li>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo3;tab-stops:list 36.0pt'><span
+     lang=EN-GB style='mso-ansi-language:EN-GB'><a
+     href="rules-heat_and_cold_shock.html">heat and cold shock</a></span><!--[if supportFields]><span
+     lang=EN-GB style='mso-ansi-language:EN-GB'><span style='mso-element:field-begin'></span>
+     ADDIN EN.CITE
+     &lt;EndNote&gt;&lt;Cite&gt;&lt;Author&gt;Eisen&lt;/Author&gt;&lt;Year&gt;1998&lt;/Year&gt;&lt;RecNum&gt;4&lt;/RecNum&gt;&lt;MDL&gt;&lt;REFERENCE_TYPE&gt;0&lt;/REFERENCE_TYPE&gt;&lt;REFNUM&gt;4&lt;/REFNUM&gt;&lt;ACCESSION_NUMBER&gt;9843981&lt;/ACCESSION_NUMBER&gt;&lt;VOLUME&gt;95&lt;/VOLUME&gt;&lt;NUMBER&gt;25&lt;/NUMBER&gt;&lt;YEAR&gt;1998&lt;/YEAR&gt;&lt;DATE&gt;Dec
+     8&lt;/DATE&gt;&lt;TITLE&gt;Cluster analysis and display of genome-wide
+     expression patterns&lt;/TITLE&gt;&lt;PAGES&gt;14863-8&lt;/PAGES&gt;&lt;AUTHOR_ADDRESS&gt;Department
+     of Genetics, Stanford University School of Medicine, 300 Pasteur Avenue,
+     Stanford, CA 94305,
+     USA.&lt;/AUTHOR_ADDRESS&gt;&lt;AUTHORS&gt;&lt;AUTHOR&gt;Eisen, M.
+     B.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Spellman, P.
+     T.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Brown, P.
+     O.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Botstein, D.&lt;/AUTHOR&gt;&lt;/AUTHORS&gt;&lt;SECONDARY_TITLE&gt;Proc
+     Natl Acad Sci U S A&lt;/SECONDARY_TITLE&gt;&lt;KEYWORDS&gt;&lt;KEYWORD&gt;Cluster
+     Analysis&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Gene
+     Expression&lt;/KEYWORD&gt;&lt;KEYWORD&gt;*Genome,
+     Fungal&lt;/KEYWORD&gt;&lt;KEYWORD&gt;*Genome,
+     Human&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Human&lt;/KEYWORD&gt;&lt;KEYWORD&gt;*Multigene
+     Family&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Saccharomyces cerevisiae/*genetics&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Support,
+     U.S. Gov&amp;apos;t,
+     P.H.S.&lt;/KEYWORD&gt;&lt;/KEYWORDS&gt;&lt;URL&gt;http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;amp;db=PubMed&amp;amp;dopt=Citation&amp;amp;list_uids=9843981&lt;/URL&gt;&lt;/MDL&gt;&lt;/Cite&gt;&lt;/EndNote&gt;<span
+     style='mso-element:field-separator'></span></span><![endif]--><span
+     lang=EN-GB style='mso-ansi-language:EN-GB'><sup>6</sup></span><!--[if supportFields]><span
+     lang=EN-GB style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></span><![endif]--></li>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo3;tab-stops:list 36.0pt'><span
+     lang=EN-GB style='mso-ansi-language:EN-GB'><a href="rules-pheromone.html">pheromone</a></span><!--[if supportFields]><span
+     lang=EN-GB style='mso-ansi-language:EN-GB'><span style='mso-element:field-begin'></span>
+     ADDIN EN.CITE
+     &lt;EndNote&gt;&lt;Cite&gt;&lt;Author&gt;Roberts&lt;/Author&gt;&lt;Year&gt;2000&lt;/Year&gt;&lt;RecNum&gt;5&lt;/RecNum&gt;&lt;MDL&gt;&lt;REFERENCE_TYPE&gt;0&lt;/REFERENCE_TYPE&gt;&lt;REFNUM&gt;5&lt;/REFNUM&gt;&lt;ACCESSION_NUMBER&gt;10657304&lt;/ACCESSION_NUMBER&gt;&lt;VOLUME&gt;287&lt;/VOLUME&gt;&lt;NUMBER&gt;5454&lt;/NUMBER&gt;&lt;YEAR&gt;2000&lt;/YEAR&gt;&lt;DATE&gt;Feb
+     4&lt;/DATE&gt;&lt;TITLE&gt;Signaling and circuitry of multiple MAPK
+     pathways revealed by a matrix of global gene expression
+     profiles&lt;/TITLE&gt;&lt;PAGES&gt;873-80&lt;/PAGES&gt;&lt;AUTHOR_ADDRESS&gt;Rosetta
+     Inpharmatics, 12040 115th Avenue Northeast, Kirkland, WA 98034,
+     USA.&lt;/AUTHOR_ADDRESS&gt;&lt;AUTHORS&gt;&lt;AUTHOR&gt;Roberts, C.
+     J.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Nelson,
+     B.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Marton, M.
+     J.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Stoughton,
+     R.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Meyer, M. R.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Bennett,
+     H. A.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;He, Y.
+     D.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Dai, H.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Walker,
+     W. L.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Hughes, T.
+     R.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Tyers,
+     M.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Boone,
+     C.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Friend, S.
+     H.&lt;/AUTHOR&gt;&lt;/AUTHORS&gt;&lt;SECONDARY_TITLE&gt;Science&lt;/SECONDARY_TITLE&gt;&lt;KEYWORDS&gt;&lt;KEYWORD&gt;Fungal
+     Proteins/genetics/metabolism/physiology&lt;/KEYWORD&gt;&lt;KEYWORD&gt;G1
+     Phase&lt;/KEYWORD&gt;&lt;KEYWORD&gt;*Gene Expression
+     Profiling&lt;/KEYWORD&gt;&lt;KEYWORD&gt;*Gene Expression Regulation,
+     Fungal&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Genome,
+     Fungal&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Lipoproteins/pharmacology/physiology&lt;/KEYWORD&gt;&lt;KEYWORD&gt;*MAP
+     Kinase Signaling System&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Mitogen-Activated
+     Protein Kinases/metabolism&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Multigene
+     Family&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Oligonucleotide Array Sequence
+     Analysis&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Peptides/pharmacology/physiology&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Protein
+     Kinase C/metabolism&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Saccharomyces
+     cerevisiae/cytology/*genetics/growth
+     &amp;amp;&lt;/KEYWORD&gt;&lt;KEYWORD&gt;development/physiology&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Support,
+     Non-U.S. Gov&amp;apos;t&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Trans-Activation
+     (Genetics)&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Transcription
+     Factors/metabolism&lt;/KEYWORD&gt;&lt;/KEYWORDS&gt;&lt;URL&gt;http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;amp;db=PubMed&amp;amp;dopt=Citation&amp;amp;list_uids=10657304&lt;/URL&gt;&lt;/MDL&gt;&lt;/Cite&gt;&lt;/EndNote&gt;<span
+     style='mso-element:field-separator'></span></span><![endif]--><span
+     lang=EN-GB style='mso-ansi-language:EN-GB'><sup>7</sup></span><!--[if supportFields]><span
+     lang=EN-GB style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></span><![endif]--></li>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo3;tab-stops:list 36.0pt'><span
+     lang=EN-GB style='mso-ansi-language:EN-GB'><a
+     href="rules-dna_damage_agents.html">DNA-damaging agents</a></span><!--[if supportFields]><span
+     lang=EN-GB style='mso-ansi-language:EN-GB'><span style='mso-element:field-begin'></span>
+     ADDIN EN.CITE
+     &lt;EndNote&gt;&lt;Cite&gt;&lt;Author&gt;Jelinsky&lt;/Author&gt;&lt;Year&gt;2000&lt;/Year&gt;&lt;RecNum&gt;6&lt;/RecNum&gt;&lt;MDL&gt;&lt;REFERENCE_TYPE&gt;0&lt;/REFERENCE_TYPE&gt;&lt;REFNUM&gt;6&lt;/REFNUM&gt;&lt;ACCESSION_NUMBER&gt;11027285&lt;/ACCESSION_NUMBER&gt;&lt;VOLUME&gt;20&lt;/VOLUME&gt;&lt;NUMBER&gt;21&lt;/NUMBER&gt;&lt;YEAR&gt;2000&lt;/YEAR&gt;&lt;DATE&gt;Nov&lt;/DATE&gt;&lt;TITLE&gt;Regulatory
+     networks revealed by transcriptional profiling of damaged Saccharomyces
+     cerevisiae cells: Rpn4 links base excision repair with
+     proteasomes&lt;/TITLE&gt;&lt;PAGES&gt;8157-67&lt;/PAGES&gt;&lt;AUTHOR_ADDRESS&gt;Cancer
+     Cell Biology, Harvard School of Public Health, Boston, Massachusetts
+     02115, USA.&lt;/AUTHOR_ADDRESS&gt;&lt;AUTHORS&gt;&lt;AUTHOR&gt;Jelinsky,
+     S. A.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Estep,
+     P.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Church, G.
+     M.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Samson, L. D.&lt;/AUTHOR&gt;&lt;/AUTHORS&gt;&lt;SECONDARY_TITLE&gt;Mol
+     Cell Biol&lt;/SECONDARY_TITLE&gt;&lt;KEYWORDS&gt;&lt;KEYWORD&gt;Algorithms&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Cluster
+     Analysis&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Computer
+     Simulation&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Cysteine
+     Endopeptidases/*genetics&lt;/KEYWORD&gt;&lt;KEYWORD&gt;*DNA
+     Repair&lt;/KEYWORD&gt;&lt;KEYWORD&gt;DNA-Binding
+     Proteins/*genetics&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Dose-Response Relationship,
+     Drug&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Kinetics&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Methyl
+     Methanesulfonate&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Models,
+     Statistical&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Multienzyme
+     Complexes/*genetics&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Mutagens&lt;/KEYWORD&gt;&lt;KEYWORD&gt;N-glycosyl
+     Hydrolases/genetics&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Oligonucleotide Array
+     Sequence Analysis&lt;/KEYWORD&gt;&lt;KEYWORD&gt;RNA,
+     Messenger/metabolism&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Reproducibility of
+     Results&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Saccharomyces
+     cerevisiae/*genetics&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Support, Non-U.S.
+     Gov&amp;apos;t&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Support, U.S. Gov&amp;apos;t,
+     Non-P.H.S.&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Support, U.S. Gov&amp;apos;t,
+     P.H.S.&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Time
+     Factors&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Transcription
+     Factors/*genetics&lt;/KEYWORD&gt;&lt;KEYWORD&gt;*Transcription,
+     Genetic&lt;/KEYWORD&gt;&lt;/KEYWORDS&gt;&lt;URL&gt;http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;amp;db=PubMed&amp;amp;dopt=Citation&amp;amp;list_uids=11027285&lt;/URL&gt;&lt;/MDL&gt;&lt;/Cite&gt;&lt;/EndNote&gt;<span
+     style='mso-element:field-separator'></span></span><![endif]--><span
+     lang=EN-GB style='mso-ansi-language:EN-GB'><sup>8</sup></span><!--[if supportFields]><span
+     lang=EN-GB style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></span><![endif]--><span
+     lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></li>
+</ol>
+
+<p class=MsoNormal><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal>Known binding sites were taken from the <a
+href="http://genetics.med.harvard.edu/~tpilpel/MotifList.html">database of known
+and putative motifs</a> published by Pilpel et al<!--[if supportFields]><span
+style='mso-element:field-begin'></span> ADDIN EN.CITE
+&lt;EndNote&gt;&lt;Cite&gt;&lt;Author&gt;Pilpel&lt;/Author&gt;&lt;Year&gt;2001&lt;/Year&gt;&lt;RecNum&gt;7&lt;/RecNum&gt;&lt;MDL&gt;&lt;REFERENCE_TYPE&gt;0&lt;/REFERENCE_TYPE&gt;&lt;REFNUM&gt;7&lt;/REFNUM&gt;&lt;ACCESSION_NUMBER&gt;11547334&lt;/ACCESSION_NUMBER&gt;&lt;VOLUME&gt;29&lt;/VOLUME&gt;&lt;NUMBER&gt;2&lt;/NUMBER&gt;&lt;YEAR&gt;2001&lt;/YEAR&gt;&lt;DATE&gt;Oct&lt;/DATE&gt;&lt;TITLE&gt;Identifying
+regulatory networks by combinatorial analysis of promoter
+elements&lt;/TITLE&gt;&lt;PAGES&gt;153-9&lt;/PAGES&gt;&lt;AUTHOR_ADDRESS&gt;Department
+of Genetics and Lipper Center for Computational Genetics, Harvard Medical
+School, Boston, Massachusetts 02115,
+USA.&lt;/AUTHOR_ADDRESS&gt;&lt;AUTHORS&gt;&lt;AUTHOR&gt;Pilpel,
+Y.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Sudarsanam,
+P.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Church, G.
+M.&lt;/AUTHOR&gt;&lt;/AUTHORS&gt;&lt;SECONDARY_TITLE&gt;Nat
+Genet&lt;/SECONDARY_TITLE&gt;&lt;KEYWORDS&gt;&lt;KEYWORD&gt;Cell
+Cycle&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Computational
+Biology&lt;/KEYWORD&gt;&lt;KEYWORD&gt;DNA,
+Fungal/genetics&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Gene Expression
+Profiling&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Oligonucleotide Array Sequence
+Analysis&lt;/KEYWORD&gt;&lt;KEYWORD&gt;*Promoter Regions
+(Genetics)&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Regulatory Sequences, Nucleic
+Acid&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Saccharomyces
+cerevisiae/cytology/genetics/physiology&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Spores,
+Fungal&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Support, Non-U.S.
+Gov&amp;apos;t&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Support, U.S. Gov&amp;apos;t,
+Non-P.H.S.&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Transcription,
+Genetic&lt;/KEYWORD&gt;&lt;/KEYWORDS&gt;&lt;URL&gt;http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;amp;db=PubMed&amp;amp;dopt=Citation&amp;amp;list_uids=11547334&lt;/URL&gt;&lt;/MDL&gt;&lt;/Cite&gt;&lt;/EndNote&gt;<span
+style='mso-element:field-separator'></span><![endif]--><sup>9</sup><!--[if supportFields]><span
+style='mso-element:field-end'></span><![endif]-->.</p>
+
+<p class=MsoNormal><span lang=EN-GB style='mso-ansi-language:EN-GB'>Expression
+data was taken from <a href="http://arep.med.harvard.edu/ExpressDB/">ExpressDB</a></span><!--[if supportFields]><span
+lang=EN-GB style='mso-ansi-language:EN-GB'><span style='mso-element:field-begin'></span>
+ADDIN EN.CITE
+&lt;EndNote&gt;&lt;Cite&gt;&lt;Author&gt;Aach&lt;/Author&gt;&lt;Year&gt;2000&lt;/Year&gt;&lt;RecNum&gt;13&lt;/RecNum&gt;&lt;MDL&gt;&lt;REFERENCE_TYPE&gt;0&lt;/REFERENCE_TYPE&gt;&lt;REFNUM&gt;13&lt;/REFNUM&gt;&lt;ACCESSION_NUMBER&gt;10779484&lt;/ACCESSION_NUMBER&gt;&lt;VOLUME&gt;10&lt;/VOLUME&gt;&lt;NUMBER&gt;4&lt;/NUMBER&gt;&lt;YEAR&gt;2000&lt;/YEAR&gt;&lt;DATE&gt;Apr&lt;/DATE&gt;&lt;TITLE&gt;Systematic
+management and analysis of yeast gene expression
+data&lt;/TITLE&gt;&lt;PAGES&gt;431-45&lt;/PAGES&gt;&lt;AUTHOR_ADDRESS&gt;Department
+of Genetics, Harvard Medical School, Boston, Massachusetts 02115
+USA.&lt;/AUTHOR_ADDRESS&gt;&lt;AUTHORS&gt;&lt;AUTHOR&gt;Aach,
+J.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Rindone, W.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Church,
+G. M.&lt;/AUTHOR&gt;&lt;/AUTHORS&gt;&lt;SECONDARY_TITLE&gt;Genome
+Res&lt;/SECONDARY_TITLE&gt;&lt;KEYWORDS&gt;&lt;KEYWORD&gt;Computational
+Biology&lt;/KEYWORD&gt;&lt;KEYWORD&gt;DNA,
+Fungal/biosynthesis&lt;/KEYWORD&gt;&lt;KEYWORD&gt;*Database Management Systems&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Databases,
+Factual&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Gene
+Expression/*genetics&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Genes,
+Fungal/genetics&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Internet&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Oligonucleotide
+Array Sequence Analysis&lt;/KEYWORD&gt;&lt;KEYWORD&gt;RNA,
+Fungal/biosynthesis&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Saccharomyces
+cerevisiae/*genetics/growth &amp;amp;
+development&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Support, Non-U.S.
+Gov&amp;apos;t&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Support, U.S. Gov&amp;apos;t,
+Non-P.H.S.&lt;/KEYWORD&gt;&lt;/KEYWORDS&gt;&lt;URL&gt;http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;amp;db=PubMed&amp;amp;dopt=Citation&amp;amp;list_uids=10779484&lt;/URL&gt;&lt;/MDL&gt;&lt;/Cite&gt;&lt;/EndNote&gt;<span
+style='mso-element:field-separator'></span></span><![endif]--><span lang=EN-GB
+style='mso-ansi-language:EN-GB'><sup>10</sup></span><!--[if supportFields]><span
+lang=EN-GB style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></span><![endif]--><span
+lang=EN-GB style='mso-ansi-language:EN-GB'>.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-GB style='mso-ansi-language:EN-GB'><a
+href="parameters.html">Selecting expression thresholds</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-GB style='mso-ansi-language:EN-GB'><a
+href="motif_overlap.html">Overlap between sequence motifs</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-GB style='mso-ansi-language:EN-GB'><a
+href="compare.html">Comparisons to other studies</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:14.0pt'>Extended tables from the article</span></b><span
+lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<ol style='margin-top:0cm' start=1 type=1>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo6;tab-stops:list 36.0pt'><span
+     lang=EN-GB style='mso-ansi-language:EN-GB'><a href="Table2.html">Table 2</a>
+     (extended with additional binding data</span><!--[if supportFields]><span
+     lang=EN-GB style='mso-ansi-language:EN-GB'><span style='mso-element:field-begin'></span>
+     ADDIN EN.CITE
+     &lt;EndNote&gt;&lt;Cite&gt;&lt;Author&gt;Harbison&lt;/Author&gt;&lt;Year&gt;2004&lt;/Year&gt;&lt;RecNum&gt;34&lt;/RecNum&gt;&lt;MDL&gt;&lt;REFERENCE_TYPE&gt;0&lt;/REFERENCE_TYPE&gt;&lt;REFNUM&gt;34&lt;/REFNUM&gt;&lt;ACCESSION_NUMBER&gt;15343339&lt;/ACCESSION_NUMBER&gt;&lt;VOLUME&gt;431&lt;/VOLUME&gt;&lt;NUMBER&gt;7004&lt;/NUMBER&gt;&lt;YEAR&gt;2004&lt;/YEAR&gt;&lt;DATE&gt;Sep
+     2&lt;/DATE&gt;&lt;TITLE&gt;Transcriptional regulatory code of a eukaryotic
+     genome&lt;/TITLE&gt;&lt;PAGES&gt;99-104&lt;/PAGES&gt;&lt;AUTHOR_ADDRESS&gt;Whitehead
+     Institute for Biomedical Research, Nine Cambridge Center, Cambridge,
+     Massachusetts 02142,
+     USA.&lt;/AUTHOR_ADDRESS&gt;&lt;AUTHORS&gt;&lt;AUTHOR&gt;Harbison, C.
+     T.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Gordon, D.
+     B.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Lee, T.
+     I.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Rinaldi, N. J.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Macisaac,
+     K. D.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Danford, T.
+     W.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Hannett, N.
+     M.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Tagne, J.
+     B.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Reynolds, D.
+     B.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Yoo, J.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Jennings,
+     E. G.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Zeitlinger,
+     J.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Pokholok, D.
+     K.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Kellis,
+     M.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Rolfe, P.
+     A.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Takusagawa, K.
+     T.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Lander, E.
+     S.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Gifford, D.
+     K.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Fraenkel,
+     E.&lt;/AUTHOR&gt;&lt;AUTHOR&gt;Young, R.
+     A.&lt;/AUTHOR&gt;&lt;/AUTHORS&gt;&lt;SECONDARY_TITLE&gt;Nature&lt;/SECONDARY_TITLE&gt;&lt;KEYWORDS&gt;&lt;KEYWORD&gt;Base
+     Sequence&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Binding
+     Sites&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Conserved
+     Sequence/genetics&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Eukaryotic
+     Cells/metabolism&lt;/KEYWORD&gt;&lt;KEYWORD&gt;*Genome,
+     Fungal&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Promoter Regions (Genetics)/genetics&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Research
+     Support, Non-U.S. Gov&amp;apos;t&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Research
+     Support, U.S. Gov&amp;apos;t,
+     P.H.S.&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Response
+     Elements/*genetics&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Saccharomyces/classification/*genetics&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Substrate
+     Specificity&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Transcription
+     Factors/*metabolism&lt;/KEYWORD&gt;&lt;KEYWORD&gt;Transcription,
+     Genetic/*genetics&lt;/KEYWORD&gt;&lt;/KEYWORDS&gt;&lt;URL&gt;http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;amp;db=PubMed&amp;amp;dopt=Citation&amp;amp;list_uids=15343339&lt;/URL&gt;&lt;/MDL&gt;&lt;/Cite&gt;&lt;/EndNote&gt;<span
+     style='mso-element:field-separator'></span></span><![endif]--><span
+     lang=EN-GB style='mso-ansi-language:EN-GB'><sup>11</sup></span><!--[if supportFields]><span
+     lang=EN-GB style='mso-ansi-language:EN-GB'><span style='mso-element:field-end'></span></span><![endif]--><span
+     lang=EN-GB style='mso-ansi-language:EN-GB'> and standard deviations for
+     the random tests)<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo6;tab-stops:list 36.0pt'><span
+     lang=EN-GB style='mso-ansi-language:EN-GB'><a href="Table3.html">Table 3</a>
+     (extended with standard deviation for the random tests)<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo6;tab-stops:list 36.0pt'><span
+     lang=EN-GB style='mso-ansi-language:EN-GB'><a href="Table4.html">Table 4</a>
+     (extended to include all rules)<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo6;tab-stops:list 36.0pt'><span
+     lang=EN-GB style='mso-ansi-language:EN-GB'><a href="Figure4.html">Figure 4</a>
+     (extended with graphs showing only significant edges)<o:p></o:p></span></li>
+</ol>
+
+<div style='border:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:
+solid windowtext .75pt;padding:0cm 0cm 1.0pt 0cm'>
+
+<p class=MsoNormal style='border:none;mso-border-bottom-alt:solid windowtext .75pt;
+padding:0cm;mso-padding-alt:0cm 0cm 1.0pt 0cm'><span lang=EN-GB
+style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+<p class=MsoNormal><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:-36.0pt'><!--[if supportFields]><span
+style='mso-element:field-begin'></span><span
+style='mso-spacerun:yes'> </span>ADDIN EN.REFLIST <span style='mso-element:
+field-separator'></span><![endif]-->1.<span style='mso-tab-count:1'>         </span>Lee
+TI, Rinaldi NJ, Robert F, Odom DT, Bar-Joseph Z, Gerber GK, Hannett NM,
+Harbison CT, Thompson CM, Simon I, Zeitlinger J, Jennings EG, Murray HL, Gordon
+DB, Ren B, Wyrick JJ, Tagne JB, Volkert TL, Fraenkel E, Gifford DK, Young RA.
+Transcriptional regulatory networks in Saccharomyces cerevisiae. Science
+2002;298(5594):799-804.</p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:-36.0pt'>2.<span
+style='mso-tab-count:1'>         </span>Ashburner M, Ball CA, Blake JA,
+Botstein D, Butler H, Cherry JM, Davis AP, Dolinski K, Dwight SS, Eppig JT,
+Harris MA, Hill DP, Issel-Tarver L, Kasarskis A, Lewis S, Matese JC, Richardson
+JE, Ringwald M, Rubin GM, Sherlock G. Gene ontology: tool for the unification
+of biology. The Gene Ontology Consortium. Nat Genet 2000;25(1):25-29.</p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:-36.0pt'>3.<span
+style='mso-tab-count:1'>         </span>Cho RJ, Campbell MJ, Winzeler EA,
+Steinmetz L, Conway A, Wodicka L, Wolfsberg TG, Gabrielian AE, Landsman D,
+Lockhart DJ, Davis RW. A genome-wide transcriptional analysis of the mitotic
+cell cycle. Mol Cell 1998;2(1):65-73.</p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:-36.0pt'>4.<span
+style='mso-tab-count:1'>         </span>Chu S, DeRisi J, Eisen M, Mulholland J,
+Botstein D, Brown PO, Herskowitz I. The transcriptional program of sporulation
+in budding yeast. Science 1998;282(5389):699-705.</p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:-36.0pt'>5.<span
+style='mso-tab-count:1'>         </span>DeRisi JL, Iyer VR, Brown PO. Exploring
+the metabolic and genetic control of gene expression on a genomic scale.
+Science 1997;278(5338):680-686.</p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:-36.0pt'>6.<span
+style='mso-tab-count:1'>         </span>Eisen MB, Spellman PT, Brown PO,
+Botstein D. Cluster analysis and display of genome-wide expression patterns.
+Proc Natl Acad Sci U S A 1998;95(25):14863-14868.</p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:-36.0pt'>7.<span
+style='mso-tab-count:1'>         </span>Roberts CJ, Nelson B, Marton MJ,
+Stoughton R, Meyer MR, Bennett HA, He YD, Dai H, Walker WL, Hughes TR, Tyers M,
+Boone C, Friend SH. Signaling and circuitry of multiple MAPK pathways revealed
+by a matrix of global gene expression profiles. Science 2000;287(5454):873-880.</p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:-36.0pt'>8.<span
+style='mso-tab-count:1'>         </span>Jelinsky SA, Estep P, Church GM, Samson
+LD. Regulatory networks revealed by transcriptional profiling of damaged
+Saccharomyces cerevisiae cells: Rpn4 links base excision repair with
+proteasomes. Mol Cell Biol 2000;20(21):8157-8167.</p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:-36.0pt'>9.<span
+style='mso-tab-count:1'>         </span>Pilpel Y, Sudarsanam P, Church GM.
+Identifying regulatory networks by combinatorial analysis of promoter elements.
+Nat Genet 2001;29(2):153-159.</p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:-36.0pt'>10.<span
+style='mso-tab-count:1'>       </span>Aach J, Rindone W, Church GM. Systematic
+management and analysis of yeast gene expression data. Genome Res
+2000;10(4):431-445.</p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:-36.0pt'>11.<span
+style='mso-tab-count:1'>      </span>Harbison CT, Gordon DB, Lee TI, Rinaldi
+NJ, Macisaac KD, Danford TW, Hannett NM, Tagne JB, Reynolds DB, Yoo J, Jennings
+EG, Zeitlinger J, Pokholok DK, Kellis M, Rolfe PA, Takusagawa KT, Lander ES,
+Gifford DK, Fraenkel E, Young RA. Transcriptional regulatory code of a
+eukaryotic genome. Nature 2004;431(7004):99-104.</p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:-36.0pt'><!--[if supportFields]><span
+style='mso-element:field-end'></span><![endif]--><o:p>&nbsp;</o:p></p>
+
+</div>
+
+<!-- Start of StatCounter Code -->
+<script type="text/javascript" language="javascript">
+var sc_project=930815; 
+var sc_invisible=1; 
+var sc_partition=7; 
+var sc_security="f1022f66"; 
+</script>
+
+<script type="text/javascript" language="javascript" src="http://www.statcounter.com/counter/counter.js"></script><noscript><a href="http://www.statcounter.com/" target="_blank"><img  src="http://c8.statcounter.com/counter.php?sc_project=930815&amp;java=0&amp;security=f1022f66&amp;invisible=1" alt="hit counter script" border="0"></a> </noscript>
+<!-- End of StatCounter Code -->
+
+</body>
+
+</html>
