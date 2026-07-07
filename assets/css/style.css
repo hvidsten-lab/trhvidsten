@@ -79,7 +79,14 @@ a:hover { text-decoration: underline; }
     linear-gradient(180deg, var(--green-50), var(--sand));
   border-bottom: 1px solid var(--line);
 }
+.hero::before {
+  content: ""; position: absolute; inset: 0; z-index: 0;
+  background: url('../img/network.png') no-repeat center right;
+  background-size: cover;
+  opacity: .06; pointer-events: none;
+}
 .hero-grid {
+  position: relative; z-index: 1;
   display: grid; grid-template-columns: 1.15fr .85fr; gap: 48px;
   align-items: center; padding: 72px 0 64px;
 }
