@@ -81,9 +81,9 @@ a:hover { text-decoration: underline; }
 }
 .hero::before {
   content: ""; position: absolute; inset: 0; z-index: 0;
-  background: url('../img/network.png') no-repeat center right;
-  background-size: cover;
-  opacity: .06; pointer-events: none;
+  background: url('../img/network.png') no-repeat center center;
+  background-size: 115%;
+  opacity: .18; pointer-events: none;
 }
 .hero-grid {
   position: relative; z-index: 1;
